@@ -1,0 +1,81 @@
+{
+    "name": {
+        "kind": "meta"
+    },
+    "common_name": {
+        "kind": "meta"
+    },
+    "height": {
+        "kind": "range",
+        "unit": "m"
+    },
+    "breast_height_diameter": {
+        "kind": "range",
+        "unit": "cm"
+    },
+    "needle": {
+        "kind": "object",
+        "members": {
+            "fascicle": {
+                "kind": "set",
+                "values": [1, 2, 3, 4, 5, 6]
+            },
+            "length": {
+                "kind": "range",
+                "unit": "cm"
+            },
+            "width": {
+                "kind": "range", 
+                "unit": "mm"
+            }
+        }
+    },
+    "cone": {
+        "kind": "object",
+        "members": {
+            "length": {
+                "kind": "range",
+                "unit": "cm"
+            },
+            "apophyses": {
+                "kind": "object",
+                "members": {
+                    "keeled": {
+                        "kind": "categorical",
+                        "values": [true, false],
+                        "default": false
+                    },
+                    "thickened": {
+                        "kind": "categorical",
+                        "values": [true, false],
+                        "default": false
+                    },
+                    "raised": {
+                        "kind": "categorical",
+                        "values": [true, false],
+                        "default": false
+                    }
+                }
+            }, 
+            "umbo": {
+                "kind": "object",
+                "members": {
+                    "position": {
+                        "kind": "categorical",
+                        "values": ["terminal", "central"]
+                    },
+                    "prickle": {
+                        "kind": "categorical",
+                        "values": [true, false],
+                        "default": false
+                    },
+                    "pyramidal": {
+                        "kind": "categorical",
+                        "values": [true, false],
+                        "default": false
+                    }
+                }
+            }
+        }
+    }
+}

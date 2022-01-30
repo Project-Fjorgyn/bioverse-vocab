@@ -18,4 +18,4 @@ RUN pip install jupyterlab \
 		seaborn
 
 # add git, vim and curl
-RUN apt-get -y install git vim curl
+RUN apt-get -y install git
