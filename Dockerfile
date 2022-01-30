@@ -12,7 +12,10 @@ RUN apt-get -y install python3.6 && \
 RUN echo "alias python=python3.6" >> /root/.bashrc
 
 # add jupyter lab
-RUN pip install jupyterlab==1.2.6
+RUN pip install jupyterlab \
+		pandas \
+		numpy \
+		seaborn
 
 # add git, vim and curl
 RUN apt-get -y install git vim curl
