@@ -1,0 +1,23 @@
+[
+    {
+        "name": "araucariaceae",
+        "common_name": "araucaria",
+        "leaves": {
+            "needle": false
+        }
+    },
+    {
+        "name": "cupressaceae",
+        "common_name": "cypress",
+        "cones": "other"
+    },
+    {
+        "name": "pinaceae",
+        "common_name": "pine"
+    },
+    {
+        "name": "taxaceae",
+        "common_name": "yew",
+        "cones": "red_fruit"
+    }
+]

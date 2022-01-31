@@ -1,0 +1,23 @@
+{
+    "name": {
+        "kind": "meta"
+    },
+    "common_name": {
+        "kind": "meta"
+    },
+    "leaves": {
+        "kind": "object",
+        "members": {
+            "needle": {
+                "kind": "categorical",
+                "values": [true, false],
+                "default": true
+            }
+        }
+    },
+    "cone": {
+        "kind": "categorical",
+        "values": ["spiral_scaled", "red_fruit", "other"],
+        "default": "spiral_scaled"
+    }
+}

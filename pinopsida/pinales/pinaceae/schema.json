@@ -1,0 +1,28 @@
+{
+    "name": {
+        "kind": "meta"
+    },
+    "common_name": {
+        "kind": "meta"
+    },
+    "needle": {
+        "kind": "object",
+        "members": {
+            "rollability": {
+                "kind": "categorical",
+                "values": [true, false],
+                "default": false
+            }
+        }
+    },
+    "cone": {
+        "kind": "object",
+        "members": {
+            "flexibility": {
+                "kind": "categorical",
+                "values": [true, false],
+                "default": false
+            }
+        }
+    }
+}

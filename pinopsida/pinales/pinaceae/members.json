@@ -1,0 +1,23 @@
+[
+    {
+        "name": "pinus",
+        "common_name": "pine",
+        "cone": {},
+        "needles": {}
+    },
+    {
+        "name": "abies",
+        "common_name": "fir",
+        "needles": {
+            "rollability": true
+        }
+    },
+    {
+        "name": "picea",
+        "common_name": "spruce",
+        "cone": {
+            "flexibility": true
+        },
+        "needles": {}
+    }
+]
