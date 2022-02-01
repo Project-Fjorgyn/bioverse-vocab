@@ -7,18 +7,21 @@
     },
     "height": {
         "kind": "range",
-        "unit": "m"
+        "unit": "m",
+        "artwork": "tree_height.png"
     },
     "breast_height_diameter": {
         "kind": "range",
-        "unit": "cm"
+        "unit": "cm",
+        "artwork": "tree_width.png"
     },
     "needle": {
         "kind": "object",
         "members": {
             "fascicle": {
                 "kind": "set",
-                "values": [1, 2, 3, 4, 5, 6]
+                "values": [1, 2, 3, 4, 5, 6],
+                "artwork": "fascicle.png"
             },
             "length": {
                 "kind": "range",
@@ -43,17 +46,20 @@
                     "keeled": {
                         "kind": "categorical",
                         "values": [true, false],
-                        "default": false
+                        "default": false,
+                        "artwork": ["not_thickened_scale.png", "keeled_scale.png"]
                     },
                     "thickened": {
                         "kind": "categorical",
                         "values": [true, false],
-                        "default": false
+                        "default": false,
+                        "artwork": ["thickened_scale.png", "not_thickened_scale.png"]
                     },
                     "raised": {
                         "kind": "categorical",
                         "values": [true, false],
-                        "default": false
+                        "default": false,
+                        "artwork": ["raised_scale.png", "not_raised_scale.png"]
                     }
                 }
             }, 
@@ -62,17 +68,20 @@
                 "members": {
                     "position": {
                         "kind": "categorical",
-                        "values": ["terminal", "central"]
+                        "values": ["terminal", "central"],
+                        "artwork": ["terminal_umbo.png", "central_umbo.png"]
                     },
                     "prickle": {
                         "kind": "categorical",
                         "values": [true, false],
-                        "default": false
+                        "default": false,
+                        "artwork": ["prickle_umbo.png", "central_umbo.png"]
                     },
                     "pyramidal": {
                         "kind": "categorical",
                         "values": [true, false],
-                        "default": false
+                        "default": false,
+                        "artwork": ["pyramidal_umbo.png", "central_umbo.png"]
                     }
                 }
             }
