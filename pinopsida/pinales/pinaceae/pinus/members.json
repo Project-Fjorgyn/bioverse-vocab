@@ -12,11 +12,11 @@
         "cone": {
             "length": [4, 8],
             "apophyses": {
-                "keeled": true,
-                "thickened": true
+                "keeled": "keeled",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -33,11 +33,11 @@
         "cone": {
             "length": [6, 11],
             "apophyses": {
-                "thickened": true
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -55,8 +55,8 @@
             "length": [8, 16],
             "apophyses": {},
             "umbo": {
-                "position": "central",
-                "pyramidal": true
+                "position": "centrally",
+                "pyramidal": "pyramidal"
             }
         }
     },
@@ -74,7 +74,7 @@
             "length": [3, 5.5],
             "apophyses": {},
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -91,11 +91,11 @@
         "cone": {
             "length": [1, 3.5],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -112,13 +112,13 @@
         "cone": {
             "length": [3, 8],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true,
-                "prickle": true
+                "position": "centrally",
+                "pyramidal": "pyramidal",
+                "prickle": "prickled"
             }
         }
     },
@@ -135,11 +135,11 @@
         "cone": {
             "length": [2, 7.5],
             "apophyses": {
-                "keeled": true
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -156,10 +156,10 @@
         "cone": {
             "length": [20, 35],
             "apophyses": {
-                "keeled": true
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -177,8 +177,8 @@
             "length": [6, 7],
             "apophyses": {},
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -195,11 +195,11 @@
         "cone": {
             "length": [3.5, 5],
             "apophyses": {
-                "thickened": true,
-                "raised": true
+                "thickened": "thickened",
+                "raised": "raised"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -216,13 +216,13 @@
         "cone": {
             "length": [7, 20],
             "apophyses": {
-                "keeled": true,
-                "raised": true
+                "keeled": "keeled",
+                "raised": "raised"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true,
-                "prickle": true
+                "position": "centrally",
+                "pyramidal": "pyramidal",
+                "prickle": "prickled"
             }
         }
     },
@@ -239,11 +239,11 @@
         "cone": {
             "length": [11, 14],
             "apophyses": {
-                "keeled": true,
-                "raised": true
+                "keeled": "keeled",
+                "raised": "raised"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -260,11 +260,11 @@
         "cone": {
             "length": [7, 15],
             "apophyses": {
-                "keeled": true,
-                "thickened": true
+                "keeled": "keeled",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -281,12 +281,12 @@
         "cone": {
             "length": [3.5, 7],
             "apophyses": {
-                "raised": true,
-                "thickened": true
+                "raised": "raised",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -303,12 +303,12 @@
         "cone": {
             "length": [10, 30],
             "apophyses": {
-                "raised": true,
-                "thickened": true
+                "raised": "raised",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -325,10 +325,10 @@
         "cone": {
             "length": [25, 50],
             "apophyses": {
-                "thickened": true
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -345,13 +345,13 @@
         "cone": {
             "length": [4, 8],
             "apophyses": {
-                "raised": true,
-                "keeled": true
+                "raised": "raised",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true,
-                "prickle": true
+                "position": "centrally",
+                "pyramidal": "pyramidal",
+                "prickle": "prickled"
             }
         }
     },
@@ -368,11 +368,11 @@
         "cone": {
             "length": [4, 8],
             "apophyses": {
-                "raised": true,
-                "thickened": true
+                "raised": "raised",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -390,7 +390,7 @@
             "length": [10, 25],
             "apophyses": {},
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -407,10 +407,10 @@
         "cone": {
             "length": [4, 9],
             "apophyses": {
-                "thickened": true
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -427,11 +427,11 @@
         "cone": {
             "length": [3.5, 12],
             "apophyses": {
-                "raised": true,
-                "keeled": true
+                "raised": "raised",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -448,13 +448,13 @@
         "cone": {
             "length": [15, 25],
             "apophyses": {
-                "raised": true,
-                "keeled": true,
-                "thickened": true
+                "raised": "raised",
+                "keeled": "keeled",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -471,11 +471,11 @@
         "cone": {
             "length": [9, 10],
             "apophyses": {
-                "keeled": true
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -492,12 +492,12 @@
         "cone": {
             "length": [4, 10],
             "apophyses": {
-                "keeled": true,
-                "thickened": true
+                "keeled": "keeled",
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -514,12 +514,12 @@
         "cone": {
             "length": [3, 10],
             "apophyses": {
-                "keeled": true,
-                "raised": true
+                "keeled": "keeled",
+                "raised": "raised"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -537,7 +537,7 @@
             "length": [7, 15],
             "apophyses": {},
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -554,12 +554,12 @@
         "cone": {
             "length": [15, 15],
             "apophyses": {
-                "thickened": true,
-                "raised": true,
-                "keeled": true
+                "thickened": "thickened",
+                "raised": "raised",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -576,12 +576,12 @@
         "cone": {
             "length": [3, 9],
             "apophyses": {
-                "raised": true,
-                "keeled": true
+                "raised": "raised",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -598,11 +598,11 @@
         "cone": {
             "length": [15, 25],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -619,12 +619,12 @@
         "cone": {
             "length": [5, 8],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "prickle": true
+                "position": "centrally",
+                "prickle": "prickled"
             }
         }
     },
@@ -641,11 +641,11 @@
         "cone": {
             "length": [15, 25],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -662,10 +662,10 @@
         "cone": {
             "length": [7, 20],
             "apophyses": {
-                "raised": true
+                "raised": "raised"
             },
             "umbo": {
-                "position": "terminal"
+                "position": "terminally"
             }
         }
     },
@@ -683,7 +683,7 @@
             "length": [2.5, 7.5],
             "apophyses": {},
             "umbo": {
-                "position": "central"
+                "position": "centrally"
             }
         }
     },
@@ -700,13 +700,13 @@
         "cone": {
             "length": [6, 12],
             "apophyses": {
-                "thickened": true,
-                "raised": true
+                "thickened": "thickened",
+                "raised": "raised"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true,
-                "prickle": true
+                "position": "centrally",
+                "pyramidal": "pyramidal",
+                "prickle": "prickled"
             }
         }
     },
@@ -723,12 +723,12 @@
         "cone": {
             "length": [10, 15],
             "apophyses": {
-                "thickened": true,
-                "keeled": true
+                "thickened": "thickened",
+                "keeled": "keeled"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true
+                "position": "centrally",
+                "pyramidal": "pyramidal"
             }
         }
     },
@@ -745,12 +745,12 @@
         "cone": {
             "length": [3, 8],
             "apophyses": {
-                "thickened": true
+                "thickened": "thickened"
             },
             "umbo": {
-                "position": "central",
-                "pyramidal": true,
-                "prickle": true
+                "position": "centrally",
+                "pyramidal": "pyramidal",
+                "prickle": "prickled"
             }
         }
     }
