@@ -1,23 +1,31 @@
 [
     {
-        "name": "araucariaceae",
-        "common_name": "araucaria",
-        "leaves": {
-            "needle": false
-        }
+      "name": "Araucariaceae",
+      "common_name": "araucaria",
+      "link": "araucariaceae",
+      "leaves": {
+        "needle": "broadleaves"
+      }
     },
     {
-        "name": "cupressaceae",
-        "common_name": "cypress",
-        "cones": "other"
+      "name": "Cupressaceae",
+      "common_name": "cypress family",
+      "link": "cupressaceae",
+      "cone": "other",
+      "leaves": {}
     },
     {
-        "name": "pinaceae",
-        "common_name": "pine"
+      "name": "Pinaceae",
+      "common_name": "pine family",
+      "link": "pinaceae",
+      "leaves": {}
     },
     {
-        "name": "taxaceae",
-        "common_name": "yew",
-        "cones": "red_fruit"
+      "name": "Taxaceae",
+      "common_name": "yew",
+      "link": "taxaceae",
+      "cone": "red fruit",
+      "leaves": {}
     }
-]
+  ]
+  

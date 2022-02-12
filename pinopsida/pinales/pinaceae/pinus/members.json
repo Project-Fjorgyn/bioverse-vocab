@@ -1,757 +1,758 @@
 [
     {
-        "name": "albicaulis",
-        "common_name": "whitebark pine",
-        "height": [0, 21],
-        "breast_height_diameter": [0, 150],
-        "needle": {
-            "fascicle": [5],
-            "length": [3, 7],
-            "width": [1, 2]
+      "name": "albicaulis",
+      "common_name": "whitebark pine",
+      "height": [0, 21],
+      "breast_height_diameter": [0, 150],
+      "needle": {
+        "fascicle": [5],
+        "length": [3, 7],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [4, 8],
+        "apophyses": {
+          "keeled": "keeled",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [4, 8],
-            "apophyses": {
-                "keeled": "keeled",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "terminally"
-            }
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "aristata",
-        "common_name": "bristlecone pine",
-        "height": [0, 15],
-        "breast_height_diameter": [0, 100],
-        "needle": {
-            "fascicle": [5],
-            "length": [2, 4],
-            "width": [0.8, 1]
+      "name": "aristata",
+      "common_name": "bristlecone pine",
+      "height": [0, 15],
+      "breast_height_diameter": [0, 100],
+      "needle": {
+        "fascicle": [5],
+        "length": [2, 4],
+        "width": [0.8, 1]
+      },
+      "cone": {
+        "length": [6, 11],
+        "apophyses": {
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [6, 11],
-            "apophyses": {
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "attenuata",
-        "common_name": "knobcone pine",
-        "height": [0, 24],
-        "breast_height_diameter": [0, 80],
-        "needle": {
-            "fascicle": [3],
-            "length": [8, 20],
-            "width": [1, 1.8]
-        },
-        "cone": {
-            "length": [8, 16],
-            "apophyses": {},
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal"
-            }
+      "name": "attenuata",
+      "common_name": "knobcone pine",
+      "height": [0, 24],
+      "breast_height_diameter": [0, 80],
+      "needle": {
+        "fascicle": [3],
+        "length": [8, 20],
+        "width": [1, 1.8]
+      },
+      "cone": {
+        "length": [8, 16],
+        "apophyses": {},
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal"
         }
+      }
     },
     {
-        "name": "banksiana",
-        "common_name": "jack pine",
-        "height": [0, 27],
-        "breast_height_diameter": [0, 60],
-        "needle": {
-            "fascicle": [2],
-            "length": [2, 5],
-            "width": [1, 2]
-        },
-        "cone": {
-            "length": [3, 5.5],
-            "apophyses": {},
-            "umbo": {
-                "position": "centrally"
-            }
+      "name": "banksiana",
+      "common_name": "jack pine",
+      "height": [0, 27],
+      "breast_height_diameter": [0, 60],
+      "needle": {
+        "fascicle": [2],
+        "length": [2, 5],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [3, 5.5],
+        "apophyses": {},
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "cembroides",
-        "common_name": "mexican pinyon",
-        "height": [0, 15],
-        "breast_height_diameter": [0, 30],
-        "needle": {
-            "fascicle": [2, 3, 4],
-            "length": [2, 6],
-            "width": [0.6, 1]
+      "name": "cembroides",
+      "common_name": "mexican pinyon",
+      "height": [0, 15],
+      "breast_height_diameter": [0, 30],
+      "needle": {
+        "fascicle": [2, 3, 4],
+        "length": [2, 6],
+        "width": [0.6, 1]
+      },
+      "cone": {
+        "length": [1, 3.5],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [1, 3.5],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "clausa",
-        "common_name": "sand pine",
-        "height": [0, 21],
-        "breast_height_diameter": [0, 50],
-        "needle": {
-            "fascicle": [2],
-            "length": [3, 10],
-            "width": [1, 1]
+      "name": "clausa",
+      "common_name": "sand pine",
+      "height": [0, 21],
+      "breast_height_diameter": [0, 50],
+      "needle": {
+        "fascicle": [2],
+        "length": [3, 10],
+        "width": [1, 1]
+      },
+      "cone": {
+        "length": [3, 8],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [3, 8],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "contorta",
-        "common_name": "lodgepole pine",
-        "height": [0, 50],
-        "breast_height_diameter": [0, 90],
-        "needle": {
-            "fascicle": [2],
-            "length": [2, 8],
-            "width": [0.7, 3]
+      "name": "contorta",
+      "common_name": "lodgepole pine",
+      "height": [0, 50],
+      "breast_height_diameter": [0, 90],
+      "needle": {
+        "fascicle": [2],
+        "length": [2, 8],
+        "width": [0.7, 3]
+      },
+      "cone": {
+        "length": [2, 7.5],
+        "apophyses": {
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [2, 7.5],
-            "apophyses": {
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "coulteri",
-        "common_name": "coulter pine",
-        "height": [0, 24],
-        "breast_height_diameter": [0, 100],
-        "needle": {
-            "fascicle": [3],
-            "length": [15, 30],
-            "width": [2, 2]
+      "name": "coulteri",
+      "common_name": "coulter pine",
+      "height": [0, 24],
+      "breast_height_diameter": [0, 100],
+      "needle": {
+        "fascicle": [3],
+        "length": [15, 30],
+        "width": [2, 2]
+      },
+      "cone": {
+        "length": [20, 35],
+        "apophyses": {
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [20, 35],
-            "apophyses": {
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "echinata",
-        "common_name": "shortleaf pine",
-        "height": [0, 40],
-        "breast_height_diameter": [0, 120],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [5, 13],
-            "width": [1, 1]
-        },
-        "cone": {
-            "length": [6, 7],
-            "apophyses": {},
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+      "name": "echinata",
+      "common_name": "shortleaf pine",
+      "height": [0, 40],
+      "breast_height_diameter": [0, 120],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [5, 13],
+        "width": [1, 1]
+      },
+      "cone": {
+        "length": [6, 7],
+        "apophyses": {},
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "edulis",
-        "common_name": "colorado pinyon pine",
-        "height": [0, 21],
-        "breast_height_diameter": [0, 60],
-        "needle": {
-            "fascicle": [1, 2, 3],
-            "length": [2, 4],
-            "width": [0.9, 1.5]
+      "name": "edulis",
+      "common_name": "colorado pinyon pine",
+      "height": [0, 21],
+      "breast_height_diameter": [0, 60],
+      "needle": {
+        "fascicle": [1, 2, 3],
+        "length": [2, 4],
+        "width": [0.9, 1.5]
+      },
+      "cone": {
+        "length": [3.5, 5],
+        "apophyses": {
+          "thickened": "thickened",
+          "raised": "raised"
         },
-        "cone": {
-            "length": [3.5, 5],
-            "apophyses": {
-                "thickened": "thickened",
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "elliottii",
-        "common_name": "slash pine",
-        "height": [0, 30],
-        "breast_height_diameter": [0, 80],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [15, 23],
-            "width": [1.2, 1.5]
+      "name": "elliottii",
+      "common_name": "slash pine",
+      "height": [0, 30],
+      "breast_height_diameter": [0, 80],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [15, 23],
+        "width": [1.2, 1.5]
+      },
+      "cone": {
+        "length": [7, 20],
+        "apophyses": {
+          "keeled": "keeled",
+          "raised": "raised"
         },
-        "cone": {
-            "length": [7, 20],
-            "apophyses": {
-                "keeled": "keeled",
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "engelmannii",
-        "common_name": "apache pine",
-        "height": [0, 35],
-        "breast_height_diameter": [0, 60],
-        "needle": {
-            "fascicle": [3, 4, 5],
-            "length": [20, 45],
-            "width": [2, 2]
+      "name": "engelmannii",
+      "common_name": "apache pine",
+      "height": [0, 35],
+      "breast_height_diameter": [0, 60],
+      "needle": {
+        "fascicle": [3, 4, 5],
+        "length": [20, 45],
+        "width": [2, 2]
+      },
+      "cone": {
+        "length": [11, 14],
+        "apophyses": {
+          "keeled": "keeled",
+          "raised": "raised"
         },
-        "cone": {
-            "length": [11, 14],
-            "apophyses": {
-                "keeled": "keeled",
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "flexilis",
-        "common_name": "limber pine",
-        "height": [0, 26],
-        "breast_height_diameter": [0, 200],
-        "needle": {
-            "fascicle": [5],
-            "length": [3, 7],
-            "width": [1, 1.5]
+      "name": "flexilis",
+      "common_name": "limber pine",
+      "height": [0, 26],
+      "breast_height_diameter": [0, 200],
+      "needle": {
+        "fascicle": [5],
+        "length": [3, 7],
+        "width": [1, 1.5]
+      },
+      "cone": {
+        "length": [7, 15],
+        "apophyses": {
+          "keeled": "keeled",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [7, 15],
-            "apophyses": {
-                "keeled": "keeled",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "terminally"
-            }
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "glabra",
-        "common_name": "spruce pine",
-        "height": [0, 30],
-        "breast_height_diameter": [0, 100],
-        "needle": {
-            "fascicle": [2],
-            "length": [4, 10],
-            "width": [0.7, 1.2]
+      "name": "glabra",
+      "common_name": "spruce pine",
+      "height": [0, 30],
+      "breast_height_diameter": [0, 100],
+      "needle": {
+        "fascicle": [2],
+        "length": [4, 10],
+        "width": [0.7, 1.2]
+      },
+      "cone": {
+        "length": [3.5, 7],
+        "apophyses": {
+          "raised": "raised",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [3.5, 7],
-            "apophyses": {
-                "raised": "raised",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "jeffreyi",
-        "common_name": "jeffrey pine",
-        "height": [0, 61],
-        "breast_height_diameter": [0, 250],
-        "needle": {
-            "fascicle": [3],
-            "length": [12, 25],
-            "width": [1.5, 2]
+      "name": "jeffreyi",
+      "common_name": "jeffrey pine",
+      "height": [0, 61],
+      "breast_height_diameter": [0, 250],
+      "needle": {
+        "fascicle": [3],
+        "length": [12, 25],
+        "width": [1.5, 2]
+      },
+      "cone": {
+        "length": [10, 30],
+        "apophyses": {
+          "raised": "raised",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [10, 30],
-            "apophyses": {
-                "raised": "raised",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "lambertiana",
-        "common_name": "sugar pine",
-        "height": [0, 75],
-        "breast_height_diameter": [0, 330],
-        "needle": {
-            "fascicle": [5],
-            "length": [5, 10],
-            "width": [1, 2]
+      "name": "lambertiana",
+      "common_name": "sugar pine",
+      "height": [0, 75],
+      "breast_height_diameter": [0, 330],
+      "needle": {
+        "fascicle": [5],
+        "length": [5, 10],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [25, 50],
+        "apophyses": {
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [25, 50],
-            "apophyses": {
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "terminally"
-            }
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "leiophylla",
-        "common_name": "chihuahua pine",
-        "height": [0, 35],
-        "breast_height_diameter": [0, 85],
-        "needle": {
-            "fascicle": [2, 3, 4, 5, 6],
-            "length": [4, 17],
-            "width": [0.5, 1.5]
+      "name": "leiophylla",
+      "common_name": "chihuahua pine",
+      "height": [0, 35],
+      "breast_height_diameter": [0, 85],
+      "needle": {
+        "fascicle": [2, 3, 4, 5, 6],
+        "length": [4, 17],
+        "width": [0.5, 1.5]
+      },
+      "cone": {
+        "length": [4, 8],
+        "apophyses": {
+          "raised": "raised",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [4, 8],
-            "apophyses": {
-                "raised": "raised",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "monophylla",
-        "common_name": "singleleaf pine",
-        "height": [0, 14],
-        "breast_height_diameter": [0, 50],
-        "needle": {
-            "fascicle": [1, 2],
-            "length": [2, 6],
-            "width": [1.3, 2.5]
+      "name": "monophylla",
+      "common_name": "singleleaf pine",
+      "height": [0, 14],
+      "breast_height_diameter": [0, 50],
+      "needle": {
+        "fascicle": [1, 2],
+        "length": [2, 6],
+        "width": [1.3, 2.5]
+      },
+      "cone": {
+        "length": [4, 8],
+        "apophyses": {
+          "raised": "raised",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [4, 8],
-            "apophyses": {
-                "raised": "raised",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "monticola",
-        "common_name": "western white pine",
-        "height": [0, 70],
-        "breast_height_diameter": [0, 250],
-        "needle": {
-            "fascicle": [5],
-            "length": [4, 10],
-            "width": [0.7, 1]
-        },
-        "cone": {
-            "length": [10, 25],
-            "apophyses": {},
-            "umbo": {
-                "position": "terminally"
-            }
+      "name": "monticola",
+      "common_name": "western white pine",
+      "height": [0, 70],
+      "breast_height_diameter": [0, 250],
+      "needle": {
+        "fascicle": [5],
+        "length": [4, 10],
+        "width": [0.7, 1]
+      },
+      "cone": {
+        "length": [10, 25],
+        "apophyses": {},
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "muricata",
-        "common_name": "bishop pine",
-        "height": [0, 24],
-        "breast_height_diameter": [0, 90],
-        "needle": {
-            "fascicle": [2],
-            "length": [8, 15],
-            "width": [1.2, 2]
+      "name": "muricata",
+      "common_name": "bishop pine",
+      "height": [0, 24],
+      "breast_height_diameter": [0, 90],
+      "needle": {
+        "fascicle": [2],
+        "length": [8, 15],
+        "width": [1.2, 2]
+      },
+      "cone": {
+        "length": [4, 9],
+        "apophyses": {
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [4, 9],
-            "apophyses": {
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "nigra",
-        "common_name": "austrian pine",
-        "height": [0, 50],
-        "breast_height_diameter": [0, 190],
-        "needle": {
-            "fascicle": [2],
-            "length": [4, 18],
-            "width": [1, 2]
+      "name": "nigra",
+      "common_name": "austrian pine",
+      "height": [0, 50],
+      "breast_height_diameter": [0, 190],
+      "needle": {
+        "fascicle": [2],
+        "length": [4, 18],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [3.5, 12],
+        "apophyses": {
+          "raised": "raised",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [3.5, 12],
-            "apophyses": {
-                "raised": "raised",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "palustris",
-        "common_name": "longleaf pine",
-        "height": [0, 47],
-        "breast_height_diameter": [0, 120],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [20, 45],
-            "width": [1.5, 1.5]
+      "name": "palustris",
+      "common_name": "longleaf pine",
+      "height": [0, 47],
+      "breast_height_diameter": [0, 120],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [20, 45],
+        "width": [1.5, 1.5]
+      },
+      "cone": {
+        "length": [15, 25],
+        "apophyses": {
+          "raised": "raised",
+          "keeled": "keeled",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [15, 25],
-            "apophyses": {
-                "raised": "raised",
-                "keeled": "keeled",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "ponderosa",
-        "common_name": "ponderosa pine",
-        "height": [0, 83],
-        "breast_height_diameter": [0, 265],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [13, 25],
-            "width": [0.5, 2.5]
+      "name": "ponderosa",
+      "common_name": "ponderosa pine",
+      "height": [0, 83],
+      "breast_height_diameter": [0, 265],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [13, 25],
+        "width": [0.5, 2.5]
+      },
+      "cone": {
+        "length": [9, 10],
+        "apophyses": {
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [9, 10],
-            "apophyses": {
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "pungens",
-        "common_name": "table mountain pine",
-        "height": [0, 12],
-        "breast_height_diameter": [0, 60],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [3, 8],
-            "width": [1, 1.5]
+      "name": "pungens",
+      "common_name": "table mountain pine",
+      "height": [0, 12],
+      "breast_height_diameter": [0, 60],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [3, 8],
+        "width": [1, 1.5]
+      },
+      "cone": {
+        "length": [4, 10],
+        "apophyses": {
+          "keeled": "keeled",
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [4, 10],
-            "apophyses": {
-                "keeled": "keeled",
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "quadrifolia",
-        "common_name": "parry pinyon",
-        "height": [0, 15],
-        "breast_height_diameter": [0, 50],
-        "needle": {
-            "fascicle": [4, 5],
-            "length": [1.5, 6],
-            "width": [1, 1.7]
+      "name": "quadrifolia",
+      "common_name": "parry pinyon",
+      "height": [0, 15],
+      "breast_height_diameter": [0, 50],
+      "needle": {
+        "fascicle": [4, 5],
+        "length": [1.5, 6],
+        "width": [1, 1.7]
+      },
+      "cone": {
+        "length": [3, 10],
+        "apophyses": {
+          "keeled": "keeled",
+          "raised": "raised"
         },
-        "cone": {
-            "length": [3, 10],
-            "apophyses": {
-                "keeled": "keeled",
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "radiata",
-        "common_name": "monterey pine",
-        "height": [0, 64],
-        "breast_height_diameter": [0, 280],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [8, 20],
-            "width": [1.3, 2.0]
-        },
-        "cone": {
-            "length": [7, 15],
-            "apophyses": {},
-            "umbo": {
-                "position": "centrally"
-            }
+      "name": "radiata",
+      "common_name": "monterey pine",
+      "height": [0, 64],
+      "breast_height_diameter": [0, 280],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [8, 20],
+        "width": [1.3, 2.0]
+      },
+      "cone": {
+        "length": [7, 15],
+        "apophyses": {},
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "resinosa",
-        "common_name": "red pine",
-        "height": [0, 37],
-        "breast_height_diameter": [0, 150],
-        "needle": {
-            "fascicle": [2],
-            "length": [11, 16.5],
-            "width": [1, 2]
+      "name": "resinosa",
+      "common_name": "red pine",
+      "height": [0, 37],
+      "breast_height_diameter": [0, 150],
+      "needle": {
+        "fascicle": [2],
+        "length": [11, 16.5],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [15, 15],
+        "apophyses": {
+          "thickened": "thickened",
+          "raised": "raised",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [15, 15],
-            "apophyses": {
-                "thickened": "thickened",
-                "raised": "raised",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "rigida",
-        "common_name": "pitch pine",
-        "height": [0, 31],
-        "breast_height_diameter": [0, 90],
-        "needle": {
-            "fascicle": [3, 4, 5],
-            "length": [5, 15],
-            "width": [1, 2]
+      "name": "rigida",
+      "common_name": "pitch pine",
+      "height": [0, 31],
+      "breast_height_diameter": [0, 90],
+      "needle": {
+        "fascicle": [3, 4, 5],
+        "length": [5, 15],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [3, 9],
+        "apophyses": {
+          "raised": "raised",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [3, 9],
-            "apophyses": {
-                "raised": "raised",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "sabiniana",
-        "common_name": "gray pine",
-        "height": [0, 25],
-        "breast_height_diameter": [0, 120],
-        "needle": {
-            "fascicle": [3],
-            "length": [15, 32],
-            "width": [1.5, 1.5]
+      "name": "sabiniana",
+      "common_name": "gray pine",
+      "height": [0, 25],
+      "breast_height_diameter": [0, 120],
+      "needle": {
+        "fascicle": [3],
+        "length": [15, 32],
+        "width": [1.5, 1.5]
+      },
+      "cone": {
+        "length": [15, 25],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [15, 25],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally"
-            }
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "serotina",
-        "common_name": "pond pine",
-        "height": [0, 21],
-        "breast_height_diameter": [0, 60],
-        "needle": {
-            "fascicle": [3, 5],
-            "length": [12, 21],
-            "width": [1.3, 2]
+      "name": "serotina",
+      "common_name": "pond pine",
+      "height": [0, 21],
+      "breast_height_diameter": [0, 60],
+      "needle": {
+        "fascicle": [3, 5],
+        "length": [12, 21],
+        "width": [1.3, 2]
+      },
+      "cone": {
+        "length": [5, 8],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [5, 8],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "strobiformis",
-        "common_name": "southwestern white pine",
-        "height": [0, 30],
-        "breast_height_diameter": [0, 90],
-        "needle": {
-            "fascicle": [5],
-            "length": [4, 10],
-            "width": [0.6, 1]
+      "name": "strobiformis",
+      "common_name": "southwestern white pine",
+      "height": [0, 30],
+      "breast_height_diameter": [0, 90],
+      "needle": {
+        "fascicle": [5],
+        "length": [4, 10],
+        "width": [0.6, 1]
+      },
+      "cone": {
+        "length": [15, 25],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [15, 25],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "terminally"
-            }
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "strobus",
-        "common_name": "eastern white pine",
-        "height": [0, 67],
-        "breast_height_diameter": [0, 180],
-        "needle": {
-            "fascicle": [5],
-            "length": [6, 10],
-            "width": [0.7, 1]
+      "name": "strobus",
+      "common_name": "eastern white pine",
+      "height": [0, 67],
+      "breast_height_diameter": [0, 180],
+      "needle": {
+        "fascicle": [5],
+        "length": [6, 10],
+        "width": [0.7, 1]
+      },
+      "cone": {
+        "length": [7, 20],
+        "apophyses": {
+          "raised": "raised"
         },
-        "cone": {
-            "length": [7, 20],
-            "apophyses": {
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "terminally"
-            }
+        "umbo": {
+          "position": "terminally"
         }
+      }
     },
     {
-        "name": "sylvestris",
-        "common_name": "scots pine",
-        "height": [0, 40],
-        "breast_height_diameter": [0, 120],
-        "needle": {
-            "fascicle": [2],
-            "length": [2.5, 9],
-            "width": [1.5, 2]
-        },
-        "cone": {
-            "length": [2.5, 7.5],
-            "apophyses": {},
-            "umbo": {
-                "position": "centrally"
-            }
+      "name": "sylvestris",
+      "common_name": "scots pine",
+      "height": [0, 40],
+      "breast_height_diameter": [0, 120],
+      "needle": {
+        "fascicle": [2],
+        "length": [2.5, 9],
+        "width": [1.5, 2]
+      },
+      "cone": {
+        "length": [2.5, 7.5],
+        "apophyses": {},
+        "umbo": {
+          "position": "centrally"
         }
+      }
     },
     {
-        "name": "taeda",
-        "common_name": "loblolly pine",
-        "height": [0, 46],
-        "breast_height_diameter": [0, 160],
-        "needle": {
-            "fascicle": [2, 3],
-            "length": [10, 23],
-            "width": [1, 2]
+      "name": "taeda",
+      "common_name": "loblolly pine",
+      "height": [0, 46],
+      "breast_height_diameter": [0, 160],
+      "needle": {
+        "fascicle": [2, 3],
+        "length": [10, 23],
+        "width": [1, 2]
+      },
+      "cone": {
+        "length": [6, 12],
+        "apophyses": {
+          "thickened": "thickened",
+          "raised": "raised"
         },
-        "cone": {
-            "length": [6, 12],
-            "apophyses": {
-                "thickened": "thickened",
-                "raised": "raised"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal",
+          "prickle": "prickled"
         }
+      }
     },
     {
-        "name": "torreyana",
-        "common_name": "torrey pine",
-        "height": [0, 23],
-        "breast_height_diameter": [0, 100],
-        "needle": {
-            "fascicle": [5],
-            "length": [15, 33],
-            "width": [2, 2]
+      "name": "torreyana",
+      "common_name": "torrey pine",
+      "height": [0, 23],
+      "breast_height_diameter": [0, 100],
+      "needle": {
+        "fascicle": [5],
+        "length": [15, 33],
+        "width": [2, 2]
+      },
+      "cone": {
+        "length": [10, 15],
+        "apophyses": {
+          "thickened": "thickened",
+          "keeled": "keeled"
         },
-        "cone": {
-            "length": [10, 15],
-            "apophyses": {
-                "thickened": "thickened",
-                "keeled": "keeled"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal"
         }
+      }
     },
     {
-        "name": "virginiana",
-        "common_name": "virginia pine",
-        "height": [0, 32],
-        "breast_height_diameter": [0, 83],
-        "needle": {
-            "fascicle": [2],
-            "length": [2, 8],
-            "width": [1, 1.5]
+      "name": "virginiana",
+      "common_name": "virginia pine",
+      "height": [0, 32],
+      "breast_height_diameter": [0, 83],
+      "needle": {
+        "fascicle": [2],
+        "length": [2, 8],
+        "width": [1, 1.5]
+      },
+      "cone": {
+        "length": [3, 8],
+        "apophyses": {
+          "thickened": "thickened"
         },
-        "cone": {
-            "length": [3, 8],
-            "apophyses": {
-                "thickened": "thickened"
-            },
-            "umbo": {
-                "position": "centrally",
-                "pyramidal": "pyramidal",
-                "prickle": "prickled"
-            }
+        "umbo": {
+          "position": "centrally",
+          "pyramidal": "pyramidal",
+          "prickle": "prickled"
         }
+      }
     }
-]
+  ]
+  

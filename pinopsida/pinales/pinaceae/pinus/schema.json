@@ -1,102 +1,121 @@
 {
     "name": {
-        "kind": "meta"
+      "kind": "meta"
     },
     "common_name": {
-        "kind": "meta"
+      "kind": "meta"
     },
     "height": {
-        "kind": "range",
-        "unit": "m",
-        "artwork": "tree_height.png",
-        "prompt": "Is the tree taller than"
+      "kind": "range",
+      "unit": "m",
+      "artwork": "tree_height.png",
+      "prompt": "Is the tree taller than"
     },
     "breast_height_diameter": {
-        "kind": "range",
-        "unit": "cm",
-        "artwork": "tree_width.png",
-        "prompt": "Is the tree wider than"
+      "kind": "range",
+      "unit": "cm",
+      "artwork": "tree_width.png",
+      "prompt": "Is the tree wider than"
     },
     "needle": {
-        "kind": "object",
-        "members": {
-            "fascicle": {
-                "kind": "set",
-                "values": [1, 2, 3, 4, 5, 6],
-                "artwork": "fascicle.png",
-                "prompt": "Is the fascicle of count"
-            },
-            "length": {
-                "kind": "range",
-                "unit": "cm",
-                "prompt": "Are the needles longer than"
-            },
-            "width": {
-                "kind": "range", 
-                "unit": "mm",
-                "prompt": "Are the needles wider than"
-            }
+      "kind": "object",
+      "members": {
+        "fascicle": {
+          "kind": "set",
+          "values": [1, 2, 3, 4, 5, 6],
+          "artwork": "fascicle.png",
+          "prompt": "Is the fascicle of count"
+        },
+        "length": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Are the needles longer than"
+        },
+        "width": {
+          "kind": "range",
+          "unit": "mm",
+          "prompt": "Are the needles wider than"
         }
+      }
     },
     "cone": {
-        "kind": "object",
-        "members": {
-            "length": {
-                "kind": "range",
-                "unit": "cm",
-                "prompt": "Is the cone of length"
+      "kind": "object",
+      "members": {
+        "length": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Is the cone of length"
+        },
+        "apophyses": {
+          "kind": "object",
+          "members": {
+            "keeled": {
+              "kind": "categorical",
+              "values": ["keeled", "not keeled"],
+              "default": "not keeled",
+              "artwork": {
+                "not keeled": "not_thickened_scale.png",
+                "keeled": "keeled_scale.png"
+              },
+              "prompt": "Are the apophyses"
             },
-            "apophyses": {
-                "kind": "object",
-                "members": {
-                    "keeled": {
-                        "kind": "categorical",
-                        "values": ["keeled", "not keeled"],
-                        "default": "not keeled",
-                        "artwork": ["not_thickened_scale.png", "keeled_scale.png"],
-                        "prompt": "Are the apophyses"
-                    },
-                    "thickened": {
-                        "kind": "categorical",
-                        "values": ["thickened", "not thickened"],
-                        "default": "not thickened",
-                        "artwork": ["thickened_scale.png", "not_thickened_scale.png"],
-                        "prompt": "Are the apophyses"
-                    },
-                    "raised": {
-                        "kind": "categorical",
-                        "values": ["raised", "flat"],
-                        "default": "flat",
-                        "artwork": ["raised_scale.png", "not_raised_scale.png"],
-                        "prompt": "Are the apophyses"
-                    }
-                }
-            }, 
-            "umbo": {
-                "kind": "object",
-                "members": {
-                    "position": {
-                        "kind": "categorical",
-                        "values": ["terminally", "centrally"],
-                        "artwork": ["terminal_umbo.png", "central_umbo.png"],
-                        "prompt": "Is the umbo positioned"
-                    },
-                    "prickle": {
-                        "kind": "categorical",
-                        "values": ["prickeled", "not prickled"],
-                        "default": "not prickled",
-                        "artwork": ["prickle_umbo.png", "central_umbo.png"],
-                        "prompt": "Is the umbo"
-                    },
-                    "pyramidal": {
-                        "kind": "categorical",
-                        "values": ["pyramidal", "not pyramidal"],
-                        "default": "not pyramidal",
-                        "artwork": ["pyramidal_umbo.png", "central_umbo.png"],
-                        "prompt": "Is the umbo"
-                    }
-                }
+            "thickened": {
+              "kind": "categorical",
+              "values": ["thickened", "not thickened"],
+              "default": "not thickened",
+              "artwork": {
+                "thickened": "thickened_scale.png",
+                "not thickened": "not_thickened_scale.png"
+              },
+              "prompt": "Are the apophyses"
+            },
+            "raised": {
+              "kind": "categorical",
+              "values": ["raised", "flat"],
+              "default": "flat",
+              "artwork": {
+                "raised": "raised_scale.png",
+                "flat": "not_raised_scale.png"
+              },
+              "prompt": "Are the apophyses"
             }
+          }
+        },
+        "umbo": {
+          "kind": "object",
+          "members": {
+            "position": {
+              "kind": "categorical",
+              "values": ["terminally", "centrally"],
+              "artwork": {
+                "terminally": "terminal_umbo.png",
+                "centrally": "central_umbo.png"
+              },
+              "prompt": "Is the umbo positioned"
+            },
+            "prickle": {
+              "kind": "categorical",
+              "values": ["prickeled", "not prickled"],
+              "default": "not prickled",
+              "artwork": {
+                "prickled": "prickle_umbo.png",
+                "not prickled": "central_umbo.png"
+              },
+              "prompt": "Is the umbo"
+            },
+            "pyramidal": {
+              "kind": "categorical",
+              "values": ["pyramidal", "not pyramidal"],
+              "default": "not pyramidal",
+              "artwork": {
+                "pyramidal": "pyramidal_umbo.png",
+                "not pyramidal": "central_umbo.png"
+              },
+              "prompt": "Is the umbo"
+            }
+          }
         }
+      }
     }
-}
+  }
+  

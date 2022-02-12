@@ -1,23 +1,29 @@
 {
     "name": {
-        "kind": "meta"
+      "kind": "meta"
     },
     "common_name": {
-        "kind": "meta"
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
     },
     "leaves": {
-        "kind": "object",
-        "members": {
-            "needle": {
-                "kind": "categorical",
-                "values": [true, false],
-                "default": true
-            }
+      "kind": "object",
+      "members": {
+        "needle": {
+          "kind": "categorical",
+          "values": ["needles", "broadleaves"],
+          "default": "needles",
+          "prompt": "Are the leaves"
         }
+      }
     },
     "cone": {
-        "kind": "categorical",
-        "values": ["spiral_scaled", "red_fruit", "other"],
-        "default": "spiral_scaled"
+      "kind": "categorical",
+      "values": ["spiral scaled", "red fruit", "other"],
+      "default": "spiral scaled",
+      "prompt": "Are the cones"
     }
-}
+  }
+  

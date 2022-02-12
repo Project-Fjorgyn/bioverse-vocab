@@ -1,23 +1,28 @@
 [
     {
-        "name": "pinus",
-        "common_name": "pine",
-        "cone": {},
-        "needles": {}
+      "name": "Pinus",
+      "common_name": "pine",
+      "link": "pinus",
+      "cone": {},
+      "needle": {}
     },
     {
-        "name": "abies",
-        "common_name": "fir",
-        "needles": {
-            "rollability": true
-        }
+      "name": "Abies",
+      "common_name": "fir",
+      "link": "abies",
+      "cone": {},
+      "needle": {
+        "rollability": "not rollable"
+      }
     },
     {
-        "name": "picea",
-        "common_name": "spruce",
-        "cone": {
-            "flexibility": true
-        },
-        "needles": {}
+      "name": "Picea",
+      "common_name": "spruce",
+      "link": "picea",
+      "cone": {
+        "flexibility": "flexible"
+      },
+      "needle": {}
     }
-]
+  ]
+  
