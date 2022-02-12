@@ -1,0 +1,17 @@
+import {{ referenceArt }} from './helpers';
+
+const ARTWORK = {{
+{artwork_ref_str}
+}};
+
+export function LoadSchema(path) {{
+  return {{
+{schema_ref_str}
+  }}[path];
+}}
+
+export function LoadTaxa(path) {{
+  return {{
+{members_ref_str}
+  }}[path];
+}}

@@ -15,7 +15,8 @@ RUN echo "alias python=python3.6" >> /root/.bashrc
 RUN pip install jupyterlab \
 		pandas \
 		numpy \
-		seaborn
+		seaborn \
+		click
 
 # add git, vim and curl
 RUN apt-get -y install git
