@@ -1,6 +1,8 @@
 import os
 import click
 
+from helpers import get_taxa_paths
+
 VOCAB_SERVICE_TEMPLATE_FILE = 'vocab.service.js.template'
 DATA_DIR = 'vocab/data'
 ARTWORK_DIR = 'vocab/artwork'
@@ -8,15 +10,6 @@ DATA_PREFIX = ' ' * 4
 ARTWORK_PREFIX = ' ' * 2
 SCHEMA_TEMPLATE = "{prefix}{taxa}: referenceArt(require('../../../assets/{path}/schema.json'), ARTWORK)"
 MEMBERS_TEMPLATE = "{prefix}{taxa}: require('../../../assets/{path}/members.json')"
-
-def get_taxa_paths(data_dir):
-    taxa_paths = {}
-    for relative_path in os.listdir(data_dir):
-        full_path = os.path.join(data_dir, relative_path)
-        if os.path.isdir(full_path):
-            taxa_paths[relative_path] = full_path
-            taxa_paths.update(get_taxa_paths(full_path))
-    return taxa_paths
 
 def build_references_str(taxa_paths, prefix, template):
     return ',\n'.join(

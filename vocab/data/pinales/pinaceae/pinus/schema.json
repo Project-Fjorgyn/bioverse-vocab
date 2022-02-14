@@ -95,7 +95,7 @@
             },
             "prickle": {
               "kind": "categorical",
-              "values": ["prickeled", "not prickled"],
+              "values": ["prickled", "not prickled"],
               "default": "not prickled",
               "artwork": {
                 "prickled": "prickle_umbo.png",

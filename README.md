@@ -6,3 +6,9 @@ To add new vocab to the app simply run:
 python build_vocab_service.py
 ```
 and then copy the `vocab` directory to `assets` in the app and `vocab.service.js` to the vocab service in the app.
+
+To autogenerate and run the tests:
+```bash
+python schema_tests.py
+python members_tests.py
+```
