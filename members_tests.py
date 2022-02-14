@@ -2,6 +2,8 @@ import unittest
 import os
 import json
 
+from helpers import get_taxa_paths
+
 DATA_DIR = 'vocab/data'
 
 class DynamicClassBase(unittest.TestCase):
@@ -65,15 +67,6 @@ MEMBERS_TEST_FACTORIES = {
     'test_set_members_{member}': check_set_members_test_factory,
     'test_range_{member}': check_range_test_factory,
 }
-
-def get_taxa_paths(data_dir):
-    taxa_paths = {}
-    for relative_path in os.listdir(data_dir):
-        full_path = os.path.join(data_dir, relative_path)
-        if os.path.isdir(full_path):
-            taxa_paths[relative_path] = full_path
-            taxa_paths.update(get_taxa_paths(full_path))
-    return taxa_paths
 
 if __name__ == '__main__':
     for taxa, base_path in get_taxa_paths(DATA_DIR).items():

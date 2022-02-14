@@ -2,6 +2,8 @@ import unittest
 import os
 import json
 
+from helpers import get_taxa_paths
+
 DATA_DIR = 'vocab/data'
 
 class DynamicClassBase(unittest.TestCase):
@@ -14,24 +16,54 @@ def test_has_values_factory(sub_schema):
         self.assertTrue(len(sub_schema['values']) > 1)
     return test
 
+def test_has_unit_factory(sub_schema):
+    def test(self):
+        self.assertIn('unit', sub_schema)
+        self.assertTrue(type(sub_schema['unit']) == str)
+    return test
+
+def test_has_prompt_factory(sub_schema):
+    def test(self):
+        self.assertIn('prompt', sub_schema)
+        self.assertTrue(type(sub_schema['prompt']) == str)
+    return test
+
+def test_artwork_matches_values(sub_schema):
+    def test(self):
+        if 'artwork' in sub_schema:
+            for key in sub_schema['artwork']:
+                self.assertIn(key, sub_schema['values'])
+    return test
+
+def test_at_most_single_artwork(sub_schema):
+    def test(self):
+        if 'artwork' in sub_schema:
+            self.assertTrue(type(sub_schema['artwork']) == str)
+    return test
+
 SET_TESTS = {
-    'test_has_values_{kind}_{keys}': test_has_values_factory
+    'test_has_values_{kind}_{keys}': test_has_values_factory,
+    'test_has_prompt_{kind}_{keys}': test_has_prompt_factory,
+    'test_single_artwork_{kind}_{keys}': test_at_most_single_artwork,
+}
+
+CATEGORICAL_TESTS = {
+    'test_has_values_{kind}_{keys}': test_has_values_factory,
+    'test_has_prompt_{kind}_{keys}': test_has_prompt_factory,
+    'test_artwork_matches_values_{kind}_{keys}': test_artwork_matches_values,
+}
+
+RANGE_TESTS = {
+    'test_has_unit_{kind}_{keys}': test_has_unit_factory,
+    'test_has_prompt_{kind}_{keys}': test_has_prompt_factory,
+    'test_single_artwork_{kind}_{keys}': test_at_most_single_artwork,
 }
 
 SUB_SCHEMA_TEST_FACTORIES = {
     'set': SET_TESTS,
-    'categorical': SET_TESTS,
-    'range': {},
+    'categorical': CATEGORICAL_TESTS,
+    'range': RANGE_TESTS,
 }
-
-def get_taxa_paths(data_dir):
-    taxa_paths = {}
-    for relative_path in os.listdir(data_dir):
-        full_path = os.path.join(data_dir, relative_path)
-        if os.path.isdir(full_path):
-            taxa_paths[relative_path] = full_path
-            taxa_paths.update(get_taxa_paths(full_path))
-    return taxa_paths
 
 def build_sub_schema_tests(schema, accumulated_keys=''):
     tests = {}
