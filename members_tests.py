@@ -23,6 +23,22 @@ def legal_category_members(obj, schema, test):
         elif sub_schema['kind'] == 'object' and key in obj:
             legal_category_members(obj[key], sub_schema['members'], test)
 
+def legal_set_members(obj, schema, test):
+    for key, sub_schema in schema.items():
+        if sub_schema['kind'] == 'set':
+            for set_member in obj[key]:
+                test.assertIn(set_member, sub_schema['values'])
+        elif sub_schema['kind'] == 'object' and key in obj:
+            legal_set_members(obj[key], sub_schema['members'], test)
+
+def legal_ranges(obj, schema, test):
+    for key, sub_schema in schema.items():
+        if sub_schema['kind'] == 'range':
+            test.assertEqual(len(obj[key]), 2)
+            test.assertTrue(type(obj[key]) == list)
+        elif sub_schema['kind'] == 'object' and key in obj:
+            legal_ranges(obj[key], sub_schema['members'], test)
+
 def all_objects_present_test_factory(schema, member):
     def test(self):
         all_objects_present(member, schema, self)
@@ -35,12 +51,12 @@ def check_categories_test_factory(schema, member):
 
 def check_set_members_test_factory(schema, member):
     def test(self):
-        pass
+        legal_set_members(member, schema, self)
     return test
 
 def check_range_test_factory(schema, member):
     def test(self):
-        pass
+        legal_ranges(member, schema, self)
     return test
 
 MEMBERS_TEST_FACTORIES = {
