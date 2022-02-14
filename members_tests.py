@@ -13,13 +13,41 @@ def all_objects_present(obj, schema, test):
             test.assertIn(key, obj)
             all_objects_present(obj[key], sub_schema['members'], test)
 
+def legal_category_members(obj, schema, test):
+    for key, sub_schema in schema.items():
+        if sub_schema['kind'] == 'categorical':
+            if key not in obj:
+                test.assertIn('default', sub_schema)
+            else:
+                test.assertIn(obj[key], sub_schema['values'])
+        elif sub_schema['kind'] == 'object' and key in obj:
+            legal_category_members(obj[key], sub_schema['members'], test)
+
 def all_objects_present_test_factory(schema, member):
     def test(self):
         all_objects_present(member, schema, self)
     return test
 
+def check_categories_test_factory(schema, member):
+    def test(self):
+        legal_category_members(member, schema, self)
+    return test
+
+def check_set_members_test_factory(schema, member):
+    def test(self):
+        pass
+    return test
+
+def check_range_test_factory(schema, member):
+    def test(self):
+        pass
+    return test
+
 MEMBERS_TEST_FACTORIES = {
     'test_all_objects_present_{member}': all_objects_present_test_factory,
+    'test_categories_{member}': check_categories_test_factory,
+    'test_set_members_{member}': check_set_members_test_factory,
+    'test_range_{member}': check_range_test_factory,
 }
 
 def get_taxa_paths(data_dir):
