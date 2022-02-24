@@ -2,131 +2,161 @@
     {
         "name": "Pinaceae",
         "common_name": "Pine Family",
-        "link": "pinaceae"
+        "link": "pinaceae",
+        "leaves": {
+            "leaf_type": "needles"
+        }
     },
     {
         "name": "Cupressaceae",
         "common_name": "Cypress Family",
-        "link": "cupressaceae"
+        "link": "cupressaceae",
+        "leaves": {
+            "leaf_type": "scales"
+        }
     },
     {
         "name": "Cupressaceae",
         "common_name": "Cypress Family",
-        "link": "cupressaceae"
+        "link": "cupressaceae",
+        "leaves": {}
     },
     {
         "name": "Staphyleaceae",
         "common_name": "Bladdernut Family",
-        "link": "staphyleaceae"
+        "link": "staphyleaceae",
+        "leaves": {}
     },
     {
         "name": "Caprifoliaceae",
         "common_name": "Honeysuckle Family",
-        "link": "caprifoliaceae"
+        "link": "caprifoliaceae",
+        "leaves": {}
     },
     {
         "name": "Oleaceae",
         "common_name": "Olive Family",
-        "link": "oleaceae"
+        "link": "oleaceae",
+        "leaves": {}
     },
     {
         "name": "Aceraceae",
         "common_name": "Maple Family",
-        "link": "aceraceae"
+        "link": "aceraceae",
+        "leaves": {}
     },
     {
         "name": "Rubiaceae",
         "common_name": "Madder Family",
-        "link": "rubiaceae"
+        "link": "rubiaceae",
+        "leaves": {}
     },
     {
         "name": "Cornaceae",
         "common_name": "Dogwood Family",
-        "link": "cornaceae"
+        "link": "cornaceae",
+        "leaves": {}
     },
     {
         "name": "Rutaceae",
         "common_name": "Rue Family",
-        "link": "rutaceae"
+        "link": "rutaceae",
+        "leaves": {}
     },
     {
         "name": "Juglandaceae",
         "common_name": "Walnut Family",
-        "link": "juglandaceae"
+        "link": "juglandaceae",
+        "leaves": {}
     },
     {
         "name": "Rosaceae",
         "common_name": "Rose Family",
-        "link": "rosaceae"
+        "link": "rosaceae",
+        "leaves": {}
     },
     {
         "name": "Anacardiaceae",
         "common_name": "Sumac Family",
-        "link": "anacardiaceae"
+        "link": "anacardiaceae",
+        "leaves": {}
     },
     {
         "name": "Platanaceae",
         "common_name": "Planetree Family",
-        "link": "platanaceae"
+        "link": "platanaceae",
+        "leaves": {}
     },
     {
         "name": "Hamamelidaceae",
         "common_name": "Witch-hazel Family",
-        "link": "hamamelidaceae"
+        "link": "hamamelidaceae",
+        "leaves": {}
     },
     {
         "name": "Moraceae",
         "common_name": "Mulberry Family",
-        "link": "moraceae"
+        "link": "moraceae",
+        "leaves": {}
     },
     {
         "name": "Lauraceae",
         "common_name": "Laurel Family",
-        "link": "lauraceae"
+        "link": "lauraceae",
+        "leaves": {}
     },
     {
         "name": "Magnoliaceae",
         "common_name": "Magnolia Family",
-        "link": "magnoliaceae"
+        "link": "magnoliaceae",
+        "leaves": {}
     },
     {
         "name": "Ebenaceae",
         "common_name": "Ebony Family",
-        "link": "ebenaceae"
+        "link": "ebenaceae",
+        "leaves": {}
     },
     {
         "name": "Ericaceae",
         "common_name": "Heath Family",
-        "link": "ericaceae"
+        "link": "ericaceae",
+        "leaves": {}
     },
     {
         "name": "Aquifoliaceae",
         "common_name": "Holly Family",
-        "link": "aquifoliaceae"
+        "link": "aquifoliaceae",
+        "leaves": {}
     },
     {
         "name": "Ulmaceae",
         "common_name": "Elm Family",
-        "link": "ulmaceae"
+        "link": "ulmaceae",
+        "leaves": {}
     },
     {
         "name": "Tiliaceae",
         "common_name": "Linden Family",
-        "link": "tiliaceae"
+        "link": "tiliaceae",
+        "leaves": {}
     },
     {
         "name": "Salicaceae",
         "common_name": "Willow Family",
-        "link": "salicaceae"
+        "link": "salicaceae",
+        "leaves": {}
     },
     {
         "name": "Betulaceae",
         "common_name": "Birch Family",
-        "link": "betulaceae"
+        "link": "betulaceae",
+        "leaves": {}
     },
     {
         "name": "Fagaceae",
         "common_name": "Birch Family",
-        "link": "fagaceae"
+        "link": "fagaceae",
+        "leaves": {}
     }
 ]

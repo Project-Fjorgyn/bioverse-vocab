@@ -1,0 +1,23 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "leaves": {
+      "kind": "object",
+      "members": {
+        "leaf_type": {
+          "kind": "categorical",
+          "values": ["needles", "broadleaves", "scales"],
+          "default": "broadleaves",
+          "prompt": "Are the leaves"
+        }
+      }
+    }
+  }
+  
