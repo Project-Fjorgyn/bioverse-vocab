@@ -7,7 +7,8 @@
             "leaf_type": "needles",
             "compound": ["simple"],
             "arrangement": ["alternate", "opposite"]
-        }
+        },
+        "fruit": ["cone"]
     },
     {
         "name": "Cupressaceae",
@@ -17,7 +18,8 @@
             "leaf_type": "scales",
             "compound": ["simple"],
             "arrangement": ["alternate", "opposite"]
-        }
+        },
+        "fruit": ["cone", "berry"]
     },
     {
         "name": "Staphyleaceae",
@@ -26,7 +28,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["opposite"]
-        }
+        },
+        "fruit": ["capsule"]
     },
     {
         "name": "Caprifoliaceae",
@@ -35,7 +38,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["opposite"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Oleaceae",
@@ -44,7 +48,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["opposite"]
-        }
+        },
+        "fruit": ["samara"]
     },
     {
         "name": "Aceraceae",
@@ -53,7 +58,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["opposite"]
-        }
+        },
+        "fruit": ["samara"]
     },
     {
         "name": "Rubiaceae",
@@ -62,7 +68,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["opposite"]
-        }
+        },
+        "fruit": ["nutlet"]
     },
     {
         "name": "Cornaceae",
@@ -71,7 +78,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate", "opposite"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Rutaceae",
@@ -80,7 +88,8 @@
         "leaves": {
             "compound": ["compound"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Juglandaceae",
@@ -89,7 +98,8 @@
         "leaves": {
             "compound": ["compound"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["nut"]
     },
     {
         "name": "Rosaceae",
@@ -98,7 +108,8 @@
         "leaves": {
             "compound": ["compound", "simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["drupe", "berry", "pome"]
     },
     {
         "name": "Anacardiaceae",
@@ -107,7 +118,8 @@
         "leaves": {
             "compound": ["compound"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["drupe"]
     },
     {
         "name": "Platanaceae",
@@ -116,7 +128,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["spherical cluster"]
     },
     {
         "name": "Hamamelidaceae",
@@ -125,7 +138,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["capsule"]
     },
     {
         "name": "Moraceae",
@@ -134,7 +148,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["cylindrical cluster"]
     },
     {
         "name": "Lauraceae",
@@ -143,7 +158,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Magnoliaceae",
@@ -152,7 +168,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["conelike cluster"]
     },
     {
         "name": "Ebenaceae",
@@ -161,7 +178,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Ericaceae",
@@ -170,7 +188,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["berry", "capsule"]
     },
     {
         "name": "Aquifoliaceae",
@@ -179,7 +198,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["berry"]
     },
     {
         "name": "Ulmaceae",
@@ -188,7 +208,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["samara"]
     },
     {
         "name": "Tiliaceae",
@@ -197,7 +218,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["nutlet"]
     },
     {
         "name": "Salicaceae",
@@ -206,7 +228,8 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["capsule"]
     },
     {
         "name": "Betulaceae",
@@ -215,15 +238,17 @@
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["nut", "nutlet", "conelike cluster", "cylindrical cluster"]
     },
     {
         "name": "Fagaceae",
-        "common_name": "Birch Family",
+        "common_name": "Beech Family",
         "link": "fagaceae",
         "leaves": {
             "compound": ["simple"],
             "arrangement": ["alternate"]
-        }
+        },
+        "fruit": ["nut"]
     }
 ]

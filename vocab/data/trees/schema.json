@@ -28,6 +28,16 @@
             "prompt": "Are the leaves arranged"
         }
       }
+    },
+    "fruit": {
+        "kind": "set",
+        "values": [
+            "cone", "berry", "capsule", "drupe", 
+            "samara", "nutlet", "nut", "pome", 
+            "spherical cluster", "cylindrical cluster",
+            "conelike cluster"
+        ],
+        "prompt": "Is the fruit like a"
     }
   }
   
