@@ -16,6 +16,16 @@
           "values": ["needles", "broadleaves", "scales"],
           "default": "broadleaves",
           "prompt": "Are the leaves"
+        },
+        "compound": {
+            "kind": "set",
+            "values": ["compound", "simple"],
+            "prompt": "Are the leaves"
+        },
+        "arrangement": {
+            "kind": "set",
+            "values": ["alternate", "opposite"],
+            "prompt": "Are the leaves arranged"
         }
       }
     }
