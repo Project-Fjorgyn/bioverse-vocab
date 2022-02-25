@@ -83,6 +83,7 @@ def main(directory, output, exclusions):
     
     detail_report = {}
     degree_summary = []
+    not_unique = set()
     questions = build_questions(schema, exclusions)
     for i, m1 in enumerate(members):
         for m2 in members[i+1:]:
@@ -106,11 +107,13 @@ def main(directory, output, exclusions):
                 degree_summary.append((
                     m1['name'], m2['name'], overall_degree
                 ))
+                not_unique.add(m1['name'])
+                not_unique.add(m2['name'])
     
     report = {
         '_summary': {
             '_total_members': len(members),
-            '_num_unique': len(members) - len(detail_report),
+            '_num_unique': len(members) - len(not_unique),
             'overall_degrees': degree_summary
         },
         'details': detail_report
