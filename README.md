@@ -15,5 +15,5 @@ python members_tests.py
 
 Example of checking for overlap:
 ```bash
-python check_overlap.py --d vocab/data/pinales/pinaceae/pinus/ -o overlap.json -e exclusions.json 
+python check_overlap.py -d vocab/data/pinales/pinaceae/pinus/ -o overlap.json -e exclusions.json 
 ```
