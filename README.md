@@ -12,3 +12,8 @@ To autogenerate and run the tests:
 python schema_tests.py
 python members_tests.py
 ```
+
+Example of checking for overlap:
+```bash
+python check_overlap.py --d vocab/data/pinales/pinaceae/pinus/ -o overlap.json -e exclusions.json 
+```
