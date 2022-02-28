@@ -6,9 +6,14 @@
         "leaves": {
             "leaf_type": "needles",
             "compound": ["simple"],
-            "arrangement": ["alternate", "opposite"]
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["cone"]
+        "fruit": ["cone"],
+        "flower": {
+            "flower_type": ["non existant"]
+        }
     },
     {
         "name": "Cupressaceae",
@@ -17,49 +22,74 @@
         "leaves": {
             "leaf_type": "scales",
             "compound": ["simple"],
-            "arrangement": ["alternate", "opposite"]
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["cone", "berry"]
+        "fruit": ["cone", "berry"],
+        "flower": {
+            "flower_type": ["non existant"]
+        }
     },
     {
         "name": "Staphyleaceae",
         "common_name": "Bladdernut Family",
         "link": "staphyleaceae",
         "leaves": {
-            "compound": ["simple"],
-            "arrangement": ["opposite"]
+            "compound": ["compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["capsule"]
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        } 
     },
     {
         "name": "Caprifoliaceae",
         "common_name": "Honeysuckle Family",
         "link": "caprifoliaceae",
         "leaves": {
-            "compound": ["simple"],
-            "arrangement": ["opposite"]
+            "compound": ["compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Oleaceae",
         "common_name": "Olive Family",
         "link": "oleaceae",
         "leaves": {
-            "compound": ["simple"],
-            "arrangement": ["opposite"]
+            "compound": ["compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["samara"]
+        "fruit": ["samara"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
     },
     {
         "name": "Aceraceae",
         "common_name": "Maple Family",
         "link": "aceraceae",
         "leaves": {
-            "compound": ["simple"],
-            "arrangement": ["opposite"]
+            "compound": ["simple", "compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["samara"]
+        "fruit": ["samara"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
     },
     {
         "name": "Rubiaceae",
@@ -67,9 +97,14 @@
         "link": "rubiaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["opposite"]
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["nutlet"]
+        "fruit": ["nutlet"],
+        "flower": {
+            "flower_type": ["a spherical cluster"]
+        }
     },
     {
         "name": "Cornaceae",
@@ -77,9 +112,14 @@
         "link": "cornaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate", "opposite"]
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled", "inconspicuous"]
+        }
     },
     {
         "name": "Rutaceae",
@@ -87,9 +127,14 @@
         "link": "rutaceae",
         "leaves": {
             "compound": ["compound"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Juglandaceae",
@@ -97,9 +142,14 @@
         "link": "juglandaceae",
         "leaves": {
             "compound": ["compound"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["nut"]
+        "fruit": ["nut"],
+        "flower": {
+            "flower_type": ["a catkin", "inconspicuous"]
+        }
     },
     {
         "name": "Rosaceae",
@@ -107,9 +157,14 @@
         "link": "rosaceae",
         "leaves": {
             "compound": ["compound", "simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["drupe", "berry", "pome"]
+        "fruit": ["drupe", "berry", "pome"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Anacardiaceae",
@@ -117,9 +172,14 @@
         "link": "anacardiaceae",
         "leaves": {
             "compound": ["compound"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["drupe"]
+        "fruit": ["drupe"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Platanaceae",
@@ -127,9 +187,14 @@
         "link": "platanaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["spherical cluster"]
+        "fruit": ["spherical cluster"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Hamamelidaceae",
@@ -137,9 +202,14 @@
         "link": "hamamelidaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["capsule"]
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Moraceae",
@@ -147,9 +217,14 @@
         "link": "moraceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["cylindrical cluster"]
+        "fruit": ["cylindrical cluster"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
     },
     {
         "name": "Lauraceae",
@@ -157,9 +232,14 @@
         "link": "lauraceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Magnoliaceae",
@@ -167,9 +247,14 @@
         "link": "magnoliaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["conelike cluster"]
+        "fruit": ["conelike cluster"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Ebenaceae",
@@ -177,9 +262,14 @@
         "link": "ebenaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Ericaceae",
@@ -187,9 +277,14 @@
         "link": "ericaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
         },
-        "fruit": ["berry", "capsule"]
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Aquifoliaceae",
@@ -197,9 +292,14 @@
         "link": "aquifoliaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["berry"]
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Ulmaceae",
@@ -207,9 +307,14 @@
         "link": "ulmaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["samara"]
+        "fruit": ["samara", "berry"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
     },
     {
         "name": "Tiliaceae",
@@ -217,9 +322,14 @@
         "link": "tiliaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["nutlet"]
+        "fruit": ["nutlet"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
     },
     {
         "name": "Salicaceae",
@@ -227,9 +337,14 @@
         "link": "salicaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["capsule"]
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
     },
     {
         "name": "Betulaceae",
@@ -237,9 +352,14 @@
         "link": "betulaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
         },
-        "fruit": ["nut", "nutlet", "conelike cluster", "cylindrical cluster"]
+        "fruit": ["nut", "nutlet", "conelike cluster", "cylindrical cluster"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
     },
     {
         "name": "Fagaceae",
@@ -247,8 +367,13 @@
         "link": "fagaceae",
         "leaves": {
             "compound": ["simple"],
-            "arrangement": ["alternate"]
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed", "lobed"],
+            "toothed": ["toothed", "untoothed"]
         },
-        "fruit": ["nut"]
+        "fruit": ["nut"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
     }
 ]
