@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Pinus",
+        "common_name": "pines",
+        "link": "pinus",
+        "needle_attachment": "a cluster in a sheath"
+    },
+    {
+        "name": "Larix",
+        "common_name": "larches",
+        "link": "larix",
+        "needle_attachment": "a cluster on a spur"
+    },
+    {
+        "name": "Picea",
+        "common_name": "spruce",
+        "link": "picea",
+        "needle_attachment": "singly attached to a wooden peg"
+    },
+    {
+        "name": "Abies",
+        "common_name": "firs",
+        "link": "abies",
+        "cone_attachment": "upright"
+    },
+    {
+        "name": "Tsuga",
+        "common_name": "hemlocks",
+        "link": "tsuga"
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "cone_length": {
+      "kind": "range",
+      "unit": "cm",
+      "prompt": "Is the cone longer than"
+    }
+}
