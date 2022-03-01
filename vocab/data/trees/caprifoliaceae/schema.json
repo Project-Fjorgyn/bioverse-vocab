@@ -7,5 +7,11 @@
     },
     "link": {
       "kind": "meta"
+    },
+    "compound": {
+      "kind": "categorical",
+      "values": ["simple", "compound"],
+      "default": "compound",
+      "prompt": "Are the leaves"
     }
 }

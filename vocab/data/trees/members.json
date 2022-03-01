@@ -53,7 +53,7 @@
         "link": "caprifoliaceae",
         "leaves": {
             "leaf_type": ["broadleaves"],
-            "compound": ["compound"],
+            "compound": ["compound", "simple"],
             "arrangement": ["opposite"],
             "lobed": ["unlobed"],
             "toothed": ["toothed", "untoothed"]
