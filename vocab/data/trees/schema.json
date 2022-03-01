@@ -12,9 +12,8 @@
       "kind": "object",
       "members": {
         "leaf_type": {
-          "kind": "categorical",
+          "kind": "set",
           "values": ["needles", "broadleaves", "scales"],
-          "default": "broadleaves",
           "prompt": "Are the leaves"
         },
         "compound": {
