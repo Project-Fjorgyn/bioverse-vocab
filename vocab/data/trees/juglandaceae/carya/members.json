@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ovata",
+        "common_name": "shagbark hickory",
+        "shaggy_bark": "shaggy"
+    },
+    {
+        "name": "tomentosa",
+        "common_name": "mockernut hickory",
+        "hairy_twigs": "hairy"
+    },
+    {
+        "name": "cordiformis",
+        "common_name": "bitternut hickory",
+        "terminal_bud_color": "yellow"
+    },
+    {
+        "name": "glabra",
+        "common_name": "pignut hickory"
+    }
+]

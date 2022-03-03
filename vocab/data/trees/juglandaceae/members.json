@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Juglans",
+        "common_name": "walnuts",
+        "link": "juglans",
+        "husk_seamed": "unseamed"
+    },
+    {
+        "name": "Carya",
+        "common_name": "hickories",
+        "link": "carya"
+    }
+]
