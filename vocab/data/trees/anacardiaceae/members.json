@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Rhus",
+        "common_name": "sumacs",
+        "link": "rhus"
+    },
+    {
+        "name": "Toxiocodendron",
+        "common_name": "poison sumacs",
+        "link": "toxiocodendron",
+        "drupe_color": "white"
+    }
+]

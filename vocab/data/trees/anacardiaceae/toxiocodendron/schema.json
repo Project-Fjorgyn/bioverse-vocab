@@ -5,13 +5,10 @@
     "common_name": {
       "kind": "meta"
     },
-    "link": {
-      "kind": "meta"
-    },
-    "drupe_color": {
+    "fruit_color": {
       "kind": "categorical",
-      "values": ["red", "white"],
+      "values": ["blackish", "red"],
       "default": "red",
-      "prompt": "Is the drupe"
+      "prompt": "Is the fruit"
     }
 }
