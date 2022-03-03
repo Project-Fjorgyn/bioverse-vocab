@@ -78,7 +78,9 @@ export function LoadSchema(path) {
     staphylea: referenceArt(require('../../../assets/vocab/data/trees/staphyleaceae/staphylea/schema.json'), ARTWORK),
     tiliaceae: referenceArt(require('../../../assets/vocab/data/trees/tiliaceae/schema.json'), ARTWORK),
     tilia: referenceArt(require('../../../assets/vocab/data/trees/tiliaceae/tilia/schema.json'), ARTWORK),
-    ulmaceae: referenceArt(require('../../../assets/vocab/data/trees/ulmaceae/schema.json'), ARTWORK)
+    ulmaceae: referenceArt(require('../../../assets/vocab/data/trees/ulmaceae/schema.json'), ARTWORK),
+    celtis: referenceArt(require('../../../assets/vocab/data/trees/ulmaceae/celtis/schema.json'), ARTWORK),
+    ulmus: referenceArt(require('../../../assets/vocab/data/trees/ulmaceae/ulmus/schema.json'), ARTWORK)
   }[path];
 }
 
@@ -145,6 +147,8 @@ export function LoadTaxa(path) {
     staphylea: require('../../../assets/vocab/data/trees/staphyleaceae/staphylea/members.json'),
     tiliaceae: require('../../../assets/vocab/data/trees/tiliaceae/members.json'),
     tilia: require('../../../assets/vocab/data/trees/tiliaceae/tilia/members.json'),
-    ulmaceae: require('../../../assets/vocab/data/trees/ulmaceae/members.json')
+    ulmaceae: require('../../../assets/vocab/data/trees/ulmaceae/members.json'),
+    celtis: require('../../../assets/vocab/data/trees/ulmaceae/celtis/members.json'),
+    ulmus: require('../../../assets/vocab/data/trees/ulmaceae/ulmus/members.json')
   }[path];
 }
