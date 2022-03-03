@@ -1,0 +1,27 @@
+[
+    {
+        "name": "serontina",
+        "common_name": "black cherry",
+        "fruit_size": [1.0, 1.3]
+    },
+    {
+        "name": "virginiana",
+        "common_name": "choke cherry",
+        "fruit_size": [0.6, 1.0]
+    },
+    {
+        "name": "pensylvanica",
+        "common_name": "pin cherry",
+        "fruit_size": [0.6, 0.6]
+    },
+    {
+        "name": "americana",
+        "common_name": "american plum",
+        "fruit_size": [1.9, 2.5]
+    },
+    {
+        "name": "nigra",
+        "common_name": "canada plum",
+        "fruit_size": [2.5, 3.8]
+    }
+]

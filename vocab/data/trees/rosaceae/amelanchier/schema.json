@@ -1,0 +1,13 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "height": {
+      "kind": "range",
+      "unit": "m",
+      "prompt": "Is the tree taller than"
+    }
+}

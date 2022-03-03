@@ -1,0 +1,12 @@
+[
+    {
+        "name": "arborea",
+        "common_name": "downy serviceberry",
+        "height": [6.1, 15.2]
+    },
+    {
+        "name": "sanguinea",
+        "common_name": "roundleaf serviceberry",
+        "height": [1.5, 6.1]
+    }
+]
