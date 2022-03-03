@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Liriodendron",
+        "common_name": "tulip trees",
+        "link": "liriodendron"
+    },
+    {
+        "name": "Magnolia",
+        "common_name": "magnolias",
+        "link": "magnolia",
+        "lobed_leaves": "unlobed"
+    }
+]
