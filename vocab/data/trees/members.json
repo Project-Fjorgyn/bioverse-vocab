@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Pinaceae",
+        "common_name": "Pine Family",
+        "link": "pinaceae",
+        "leaves": {
+            "leaf_type": ["needles"],
+            "compound": ["simple"],
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["cone"],
+        "flower": {
+            "flower_type": ["non existant"]
+        }
+    },
+    {
+        "name": "Cupressaceae",
+        "common_name": "Cypress Family",
+        "link": "cupressaceae",
+        "leaves": {
+            "leaf_type": ["scales", "needles"],
+            "compound": ["simple"],
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["cone", "berry"],
+        "flower": {
+            "flower_type": ["non existant"]
+        }
+    },
+    {
+        "name": "Staphyleaceae",
+        "common_name": "Bladdernut Family",
+        "link": "staphyleaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        } 
+    },
+    {
+        "name": "Caprifoliaceae",
+        "common_name": "Honeysuckle Family",
+        "link": "caprifoliaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound", "simple"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Oleaceae",
+        "common_name": "Olive Family",
+        "link": "oleaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["samara"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
+    },
+    {
+        "name": "Aceraceae",
+        "common_name": "Maple Family",
+        "link": "aceraceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple", "compound"],
+            "arrangement": ["opposite"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["samara"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
+    },
+    {
+        "name": "Rubiaceae",
+        "common_name": "Madder Family",
+        "link": "rubiaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["nutlet"],
+        "flower": {
+            "flower_type": ["a spherical cluster"]
+        }
+    },
+    {
+        "name": "Cornaceae",
+        "common_name": "Dogwood Family",
+        "link": "cornaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate", "opposite"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled", "inconspicuous"]
+        }
+    },
+    {
+        "name": "Rutaceae",
+        "common_name": "Rue Family",
+        "link": "rutaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Juglandaceae",
+        "common_name": "Walnut Family",
+        "link": "juglandaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["nut"],
+        "flower": {
+            "flower_type": ["a catkin", "inconspicuous"]
+        }
+    },
+    {
+        "name": "Rosaceae",
+        "common_name": "Rose Family",
+        "link": "rosaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound", "simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["drupe", "berry", "pome"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Anacardiaceae",
+        "common_name": "Sumac Family",
+        "link": "anacardiaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["compound"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["drupe"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Platanaceae",
+        "common_name": "Planetree Family",
+        "link": "platanaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["spherical cluster"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Hamamelidaceae",
+        "common_name": "Witch-hazel Family",
+        "link": "hamamelidaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Moraceae",
+        "common_name": "Mulberry Family",
+        "link": "moraceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["lobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["cylindrical cluster"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
+    },
+    {
+        "name": "Lauraceae",
+        "common_name": "Laurel Family",
+        "link": "lauraceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Magnoliaceae",
+        "common_name": "Magnolia Family",
+        "link": "magnoliaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["lobed", "unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["conelike cluster"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Ebenaceae",
+        "common_name": "Ebony Family",
+        "link": "ebenaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Ericaceae",
+        "common_name": "Heath Family",
+        "link": "ericaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["untoothed"]
+        },
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Aquifoliaceae",
+        "common_name": "Holly Family",
+        "link": "aquifoliaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["berry"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Ulmaceae",
+        "common_name": "Elm Family",
+        "link": "ulmaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["samara", "berry"],
+        "flower": {
+            "flower_type": ["inconspicuous"]
+        }
+    },
+    {
+        "name": "Tiliaceae",
+        "common_name": "Linden Family",
+        "link": "tiliaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["nutlet"],
+        "flower": {
+            "flower_type": ["petalled"]
+        }
+    },
+    {
+        "name": "Salicaceae",
+        "common_name": "Willow Family",
+        "link": "salicaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["capsule"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
+    },
+    {
+        "name": "Betulaceae",
+        "common_name": "Birch Family",
+        "link": "betulaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed"],
+            "toothed": ["toothed"]
+        },
+        "fruit": ["nut", "nutlet", "conelike cluster", "cylindrical cluster"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
+    },
+    {
+        "name": "Fagaceae",
+        "common_name": "Beech Family",
+        "link": "fagaceae",
+        "leaves": {
+            "leaf_type": ["broadleaves"],
+            "compound": ["simple"],
+            "arrangement": ["alternate"],
+            "lobed": ["unlobed", "lobed"],
+            "toothed": ["toothed", "untoothed"]
+        },
+        "fruit": ["nut"],
+        "flower": {
+            "flower_type": ["a catkin"]
+        }
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "lobed": {
+      "kind": "categorical",
+      "values": ["lobed", "unlobed"],
+      "default": "lobed",
+      "prompt": "Are the leaves"
+    }
+}

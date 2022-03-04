@@ -1,0 +1,31 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "needle_attachment": {
+      "kind": "categorical",
+      "values": [
+        "singly attached directly to twig",
+        "singly attached to a wooden peg",
+        "a cluster on a spur",
+        "a cluster in a sheath"
+      ],
+      "default": "singly attached directly to twig",
+      "prompt": "Are the needles"
+    },
+    "cone_attachment": {
+      "kind": "categorical",
+      "values": [
+        "hanging",
+        "upright"
+      ],
+      "default": "hanging",
+      "prompt": "Are the cones"
+    }
+}

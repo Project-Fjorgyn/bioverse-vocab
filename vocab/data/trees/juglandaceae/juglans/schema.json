@@ -1,0 +1,14 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "leaf_scar_fringe": {
+      "kind": "categorical",
+      "values": ["hairy", "not hairy"],
+      "default": "hairy",
+      "prompt": "Is the leaf scar fringe"
+    }
+}

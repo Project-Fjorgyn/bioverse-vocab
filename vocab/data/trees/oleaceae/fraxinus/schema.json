@@ -1,0 +1,25 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "leaflet": {
+      "kind": "object",
+      "members": {
+        "width": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Are the leaflets wider than"
+        },
+        "shape": {
+          "kind": "categorical",
+          "values": ["widely elliptic", "narrowly elliptic"],
+          "default": ["widely elliptic"],
+          "prompt": "Are the leaflets"
+        }
+      }
+    }
+    
+}

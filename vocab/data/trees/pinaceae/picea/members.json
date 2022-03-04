@@ -1,0 +1,17 @@
+[
+    {
+        "name": "rubens",
+        "common_name": "red spruce",
+        "cone_length": [3.2, 3.8]
+    },
+    {
+        "name": "glauca",
+        "common_name": "white spruce",
+        "cone_length": [3.8, 6.4]
+    },
+    {
+        "name": "mariana",
+        "common_name": "black spruce",
+        "cone_length": [0.6, 3.2]
+    }
+]

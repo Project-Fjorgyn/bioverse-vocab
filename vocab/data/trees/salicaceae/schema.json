@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "fragrant_bud": {
+      "kind": "categorical",
+      "values": ["fragrant", "not fragrant"],
+      "default": "fragrant",
+      "prompt": "Are the buds"
+    }
+}

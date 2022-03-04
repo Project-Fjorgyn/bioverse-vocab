@@ -1,0 +1,16 @@
+[
+    {
+        "name": "thomasii",
+        "common_name": "rock elm",
+        "hairy_twig": "hairy"
+    },
+    {
+        "name": "americana",
+        "common_name": "american elm"
+    },
+    {
+        "name": "rubra",
+        "common_name": "slippery elm",
+        "rough_leaf": "rough"
+    }
+]

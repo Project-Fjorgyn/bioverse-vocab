@@ -1,0 +1,14 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "fruit_color": {
+      "kind": "categorical",
+      "values": ["blackish", "red"],
+      "default": "red",
+      "prompt": "Is the fruit"
+    }
+}

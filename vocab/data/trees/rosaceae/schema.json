@@ -1,0 +1,28 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "leaf": {
+      "kind": "object",
+      "members": {
+        "compound": {
+          "kind": "categorical",
+          "values": ["compound", "simple"],
+          "default": "compound",
+          "prompt": "Are the leaves"
+        }
+      }
+    },
+    "flower_position": {
+      "kind": "categorical",
+      "values": ["terminal", "not terminal"],
+      "default": "not terminal",
+      "prompt": "Are the flowers"
+    }
+}

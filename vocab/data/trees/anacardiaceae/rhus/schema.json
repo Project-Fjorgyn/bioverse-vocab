@@ -1,0 +1,19 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "branch_color": {
+      "kind": "categorical",
+      "values": ["green", "brown"],
+      "default": "green",
+      "prompt": "Are the branches"
+    },
+    "leaf_length": {
+      "kind": "range",
+      "unit": "cm",
+      "prompt": "Is the compound leaf longer than"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "bark": {
+      "kind": "object",
+      "members": {
+        "color": {
+          "kind": "categorical",
+          "values": ["white", "grey", "rust", "golden"],
+          "default": "white",
+          "prompt": "Is the bark color"
+        },
+        "peeling": {
+          "kind": "categorical",
+          "values": ["peeling", "not peeling"],
+          "default": "peeling",
+          "prompt": "Is the bark"
+        }
+      }
+    }
+}

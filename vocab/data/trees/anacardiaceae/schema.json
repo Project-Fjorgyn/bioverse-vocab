@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "drupe_color": {
+      "kind": "categorical",
+      "values": ["red", "white"],
+      "default": "red",
+      "prompt": "Is the drupe"
+    }
+}

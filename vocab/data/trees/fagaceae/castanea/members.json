@@ -1,0 +1,12 @@
+[
+    {
+        "name": "dentata",
+        "common_name": "american chestnut",
+        "leaf_size": [12.7, 22.9]
+    },
+    {
+        "name": "pumila",
+        "common_name": "chinkapin",
+        "leaf_size": [7.6, 15.2]
+    }
+]

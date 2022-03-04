@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Kalmia",
+        "common_name": "kalmia",
+        "link": "kalmia",
+        "leaf_length": [5.1, 12.7]
+    },
+    {
+        "name": "Rhododendron",
+        "common_name": "rhododendrons",
+        "link": "rhododendron",
+        "leaf_length": [10.2, 30.5]
+    }
+]

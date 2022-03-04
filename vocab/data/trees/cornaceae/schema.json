@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "leaf": {
+      "kind": "categorical",
+      "values": ["shiny", "not shiny"],
+      "default": "not shiny",
+      "prompt": "Is the leaf"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "leaves": {
+      "kind": "object",
+      "members": {
+        "leaf_type": {
+          "kind": "set",
+          "values": ["needles", "broadleaves", "scales"],
+          "prompt": "Are the leaves"
+        },
+        "compound": {
+            "kind": "set",
+            "values": ["compound", "simple"],
+            "prompt": "Are the leaves"
+        },
+        "arrangement": {
+            "kind": "set",
+            "values": ["alternate", "opposite"],
+            "prompt": "Are the leaves arranged"
+        },
+        "lobed": {
+          "kind": "set",
+          "values": ["lobed", "unlobed"],
+          "prompt": "Are the leaves"
+        },
+        "toothed": {
+          "kind": "set",
+          "values": ["toothed", "untoothed"],
+          "prompt": "Are the leaves"
+        }
+      }
+    },
+    "fruit": {
+        "kind": "set",
+        "values": [
+            "cone", "berry", "capsule", "drupe", 
+            "samara", "nutlet", "nut", "pome", 
+            "spherical cluster", "cylindrical cluster",
+            "conelike cluster"
+        ],
+        "prompt": "Is the fruit like a"
+    },
+    "flower": {
+      "kind": "object",
+      "members": {
+        "flower_type": {
+          "kind": "set",
+          "values": [
+            "a catkin", "petalled", "non existant", 
+            "inconspicuous", "a spherical cluster"
+          ],
+          "prompt": "Is the flower"
+        }
+      }
+    }
+  }
+  

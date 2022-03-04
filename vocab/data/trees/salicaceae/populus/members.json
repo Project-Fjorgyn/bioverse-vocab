@@ -1,0 +1,37 @@
+[
+    {
+        "name": "heterophylla",
+        "common_name": "swamp cottonwood",
+        "leaf": {
+            "shape": ["oval"]
+        }
+    },
+    {
+        "name": "deltoides",
+        "common_name": "eastern cottonwood",
+        "leaf": {
+            "shape": ["heart"]
+        }
+    },
+    {
+        "name": "balsamifera",
+        "common_name": "balsam poplar",
+        "leaf": {
+            "shape": ["oval"]
+        }
+    },
+    {
+        "name": "tremuloides",
+        "common_name": "quaking aspen",
+        "leaf": {
+            "shape": ["circle"]
+        }
+    },
+    {
+        "name": "grandidentata",
+        "common_name": "bigtooth aspen",
+        "leaf": {
+            "shape": ["circle"]
+        }
+    }
+]

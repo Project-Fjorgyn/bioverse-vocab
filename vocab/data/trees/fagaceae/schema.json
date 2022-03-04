@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "fruit_kind": {
+      "kind": "categorical",
+      "values": ["an eggshaped husk", "a round husk", "an acorn"],
+      "default": "an acorn",
+      "prompt": "Is the fruit"
+    }
+}

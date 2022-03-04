@@ -1,0 +1,24 @@
+[
+    {
+        "name": "nigra",
+        "common_name": "black ash",
+        "leaflet": {
+            "width": [0, 7.6],
+            "shape": "narrowly elliptic"
+        }
+    },
+    {
+        "name": "americana",
+        "common_name": "white ash",
+        "leaflet": {
+            "width": [3.8, 7.6]
+        }
+    },
+    {
+        "name": "pennsylvanica",
+        "common_name": "green ash",
+        "leaflet": {
+            "width": [0, 3.8]
+        }
+    }
+]

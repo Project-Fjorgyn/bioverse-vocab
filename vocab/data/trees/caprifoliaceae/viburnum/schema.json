@@ -1,0 +1,14 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "toothed": {
+      "kind": "categorical",
+      "values": ["toothed", "untoothed"],
+      "default": "toothed",
+      "prompt": "Are the leaf margins"
+    }
+}

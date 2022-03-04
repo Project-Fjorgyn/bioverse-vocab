@@ -1,0 +1,14 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "arrangement": {
+      "kind": "categorical",
+      "values": ["oppositely", "alternately"],
+      "default": "alternate",
+      "prompt": "Are the leaves arranged"
+    }
+}

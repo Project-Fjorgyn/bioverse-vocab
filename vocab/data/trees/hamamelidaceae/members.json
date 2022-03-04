@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Liquidambar",
+        "common_name": "sweetgum",
+        "link": "liquidambar"
+    },
+    {
+        "name": "Hamamelis",
+        "common_name": "witch hazel",
+        "link": "hamamelis",
+        "lobed": "unlobed"
+    }
+]

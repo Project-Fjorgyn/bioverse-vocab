@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Fagus",
+        "common_name": "beeches",
+        "link": "fagus",
+        "fruit_kind": "an eggshaped husk"
+    },
+    {
+        "name": "Castanea",
+        "common_name": "chestnuts",
+        "link": "castanea",
+        "fruit_kind": "a round husk"
+    },
+    {
+        "name": "Quercus",
+        "common_name": "oaks",
+        "link": "quercus"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "shaggy_bark": {
+      "kind": "categorical",
+      "values": ["shaggy", "rough"],
+      "default": "rough",
+      "prompt": "Is the bark"
+    },
+    "terminal_bud_color": {
+      "kind": "categorical",
+      "values": ["yellow", "green"],
+      "default": "green",
+      "prompt": "Is the terminal bud"
+    },
+    "hairy_twigs": {
+      "kind": "categorical",
+      "values": ["hairy", "smooth"],
+      "default": "smooth",
+      "prompt": "Are the twigs"
+    }
+}

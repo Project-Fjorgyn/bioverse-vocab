@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "husk_seamed": {
+      "kind": "categorical",
+      "values": ["seamed", "unseamed"],
+      "default": "seamed",
+      "prompt": "Is the fruit's husk"
+    }
+}

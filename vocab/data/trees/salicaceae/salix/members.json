@@ -1,0 +1,37 @@
+[
+    {
+        "name": "lucida",
+        "common_name": "pacific willow",
+        "leaf": {
+            "shape": ["lance"]
+        }
+    },
+    {
+        "name": "exigua",
+        "common_name": "sandbar willow",
+        "leaf": {
+            "shape": ["lance"]
+        }
+    },
+    {
+        "name": "bebbiana",
+        "common_name": "bebb willow",
+        "leaf": {
+            "shape": ["ellipse"]
+        }
+    },
+    {
+        "name": "discolor",
+        "common_name": "pussy willow",
+        "leaf": {
+            "shape": ["ellipse"]
+        }
+    },
+    {
+        "name": "nigra",
+        "common_name": "black willow",
+        "leaf": {
+            "shape": ["lance"]
+        }
+    }
+]

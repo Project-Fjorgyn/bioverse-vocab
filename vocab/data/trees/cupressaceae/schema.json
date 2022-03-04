@@ -1,0 +1,27 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "cone": {
+      "kind": "object",
+      "members": {
+        "cone_type": {
+          "kind": "categorical",
+          "values": ["berrylike", "scaled"],
+          "default": "scaled",
+          "prompt": "Is the cone"
+        },
+        "cone_length": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Is the cone longer than"
+        }
+      }
+    }
+}

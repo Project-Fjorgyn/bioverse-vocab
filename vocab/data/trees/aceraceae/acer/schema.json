@@ -1,0 +1,39 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "leaf": {
+      "kind": "object",
+      "members": {
+        "compound": {
+          "kind": "categorical",
+          "values": ["compound", "simple"],
+          "default": "simple",
+          "prompt": "Are the leaves"
+        },
+        "length": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Are the leaves longer than"
+        },
+        "lobes": {
+          "kind": "set",
+          "values": [3, 5],
+          "prompt": "Are the lobes of count"
+        }
+      }
+    },
+    "samara": {
+      "kind": "object",
+      "members": {
+        "length": {
+          "kind": "range",
+          "unit": "cm",
+          "prompt": "Is the samara longer than"
+        }
+      }
+    }
+}

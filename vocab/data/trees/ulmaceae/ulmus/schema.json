@@ -1,0 +1,20 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "hairy_twig": {
+      "kind": "categorical",
+      "values": ["hairy", "not hairy"],
+      "default": "not hairy",
+      "prompt": "Are the twigs"
+    },
+    "rough_leaf": {
+      "kind": "categorical",
+      "values": ["rough", "not rough"],
+      "default": "not rough",
+      "prompt": "Is the surface of the leaf"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "fruit_size": {
+      "kind": "range",
+      "unit": "cm",
+      "prompt": "Are the fruits wider than"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "compound": {
+      "kind": "categorical",
+      "values": ["simple", "compound"],
+      "default": "compound",
+      "prompt": "Are the leaves"
+    }
+}

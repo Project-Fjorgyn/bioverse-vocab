@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Thuja",
+        "common_name": "cedars",
+        "link": "thuja",
+        "cone": {
+            "cone_length": [0.6, 1.3]
+        }
+    },
+    {
+        "name": "Chamaecyparis",
+        "common_name": "cedars",
+        "link": "chamaecyparis",
+        "cone": {
+            "cone_length": [0, 0.6]
+        }
+    },
+    {
+        "name": "Juniperus",
+        "common_name": "junipers",
+        "link": "juniperus",
+        "cone": {
+            "cone_type": "berrylike",
+            "cone_length": [0, 1.3]
+        }
+    }
+]

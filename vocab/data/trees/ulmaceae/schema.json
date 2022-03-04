@@ -1,0 +1,17 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "link": {
+      "kind": "meta"
+    },
+    "fruit": {
+      "kind": "categorical",
+      "values": ["drupe", "samara"],
+      "default": "samara",
+      "prompt": "Is the fruit a"
+    }
+}

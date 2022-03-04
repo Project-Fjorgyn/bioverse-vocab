@@ -41,6 +41,14 @@ def legal_ranges(obj, schema, test):
         elif sub_schema['kind'] == 'object' and key in obj:
             legal_ranges(obj[key], sub_schema['members'], test)
 
+def no_extra_keys(obj, schema, test):
+    for key in obj:
+        test.assertIn(key, schema)
+    for key, sub_schema in schema.items():
+        if sub_schema['kind'] == 'object' and key in obj:
+            test.assertEqual(('kind', 'members'), tuple(sorted(sub_schema.keys())))
+            no_extra_keys(obj[key], sub_schema['members'], test)
+
 def all_objects_present_test_factory(schema, member):
     def test(self):
         all_objects_present(member, schema, self)
@@ -61,11 +69,17 @@ def check_range_test_factory(schema, member):
         legal_ranges(member, schema, self)
     return test
 
+def check_no_extra_keys_test_factory(schema, member):
+    def test(self):
+        no_extra_keys(member, schema, self)
+    return test
+
 MEMBERS_TEST_FACTORIES = {
     'test_all_objects_present_{member}': all_objects_present_test_factory,
     'test_categories_{member}': check_categories_test_factory,
     'test_set_members_{member}': check_set_members_test_factory,
     'test_range_{member}': check_range_test_factory,
+    'test_no_extra_keys_{member}': check_no_extra_keys_test_factory,
 }
 
 if __name__ == '__main__':
