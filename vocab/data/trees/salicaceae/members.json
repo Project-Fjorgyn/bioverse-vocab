@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Salix",
+        "common_name": "willows",
+        "link": "salix",
+        "fragrant_bud": "not fragrant"
+    },
+    {
+        "name": "Populus",
+        "common_name": "populus",
+        "link": "populus"
+    }
+]

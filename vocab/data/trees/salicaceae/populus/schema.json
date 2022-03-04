@@ -1,0 +1,18 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "leaf": {
+      "kind": "object",
+      "members": {
+        "shape": {
+          "kind": "set",
+          "values": ["oval", "heart", "circle"],
+          "prompt": "Are the leaves shaped like a"
+        }
+      }
+    }
+}
