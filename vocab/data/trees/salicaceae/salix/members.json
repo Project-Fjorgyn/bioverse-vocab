@@ -17,14 +17,14 @@
         "name": "bebbiana",
         "common_name": "bebb willow",
         "leaf": {
-            "shape": ["elliptic"]
+            "shape": ["ellipse"]
         }
     },
     {
         "name": "discolor",
         "common_name": "pussy willow",
         "leaf": {
-            "shape": ["elliptic"]
+            "shape": ["ellipse"]
         }
     },
     {

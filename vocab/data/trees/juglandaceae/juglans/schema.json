@@ -7,7 +7,7 @@
     },
     "leaf_scar_fringe": {
       "kind": "categorical",
-      "values": ["hairy", "not hair"],
+      "values": ["hairy", "not hairy"],
       "default": "hairy",
       "prompt": "Is the leaf scar fringe"
     }
