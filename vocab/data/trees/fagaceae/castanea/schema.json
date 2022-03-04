@@ -1,0 +1,13 @@
+{
+    "name": {
+      "kind": "meta"
+    },
+    "common_name": {
+      "kind": "meta"
+    },
+    "leaf_size": {
+      "kind": "range",
+      "unit": "cm",
+      "prompt": "Are the leaves longer than"
+    }
+}

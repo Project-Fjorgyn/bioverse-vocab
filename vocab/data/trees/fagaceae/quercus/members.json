@@ -1,0 +1,54 @@
+[
+    {
+        "name": "prinoides",
+        "common_name": "dwarf chinkapin oak"
+    },
+    {
+        "name": "muehlenbergii",
+        "common_name": "chinkapin oak"
+    },
+    {
+        "name": "montana",
+        "common_name": "chestnut oak"
+    },
+    {
+        "name": "rubra",
+        "common_name": "northern red oak"
+    },
+    {
+        "name": "veluntina",
+        "common_name": "black oak"
+    },
+    {
+        "name": "palustris",
+        "common_name": "pin oak"
+    },
+    {
+        "name": "coccinea",
+        "common_name": "scarlet oak"
+    },
+    {
+        "name": "falcata",
+        "common_name": "southern red oak"
+    },
+    {
+        "name": "ilicifolia",
+        "common_name": "bear oak"
+    },
+    {
+        "name": "bicolor",
+        "common_name": "swamp white oak"
+    },
+    {
+        "name": "alba",
+        "common_name": "white oak"
+    },
+    {
+        "name": "macrocarpa",
+        "common_name": "bur oak"
+    },
+    {
+        "name": "stellata",
+        "common_name": "swamp white oak"
+    }
+]
