@@ -7,5 +7,11 @@
     },
     "link": {
       "kind": "meta"
+    },
+    "fruit_kind": {
+      "kind": "categorical",
+      "values": ["attached to leaflike bracts", "a husk", "conelike"],
+      "default": "conelike",
+      "prompt": "Is the fruit"
     }
 }

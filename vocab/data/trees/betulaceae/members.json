@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Carpinus",
+        "common_name": "hornbeams",
+        "link": "carpinus",
+        "fruit_kind": "attached to leaflike bracts"
+    },
+    {
+        "name": "Ostrya",
+        "common_name": "hophornbeam",
+        "link": "ostrya",
+        "fruit_kind": "a husk"
+    },
+    {
+        "name": "Betula",
+        "common_name": "birches",
+        "link": "betula"
+    }
+]

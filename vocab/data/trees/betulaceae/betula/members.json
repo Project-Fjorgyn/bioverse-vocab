@@ -1,0 +1,41 @@
+[
+    {
+        "name": "papyrifera",
+        "common_name": "paper birch",
+        "bark": {
+            "color": "white"
+        }
+    },
+    {
+        "name": "populifolia",
+        "common_name": "gray birch",
+        "bark": {
+            "color": "white",
+            "peeling": "not peeling"
+        }
+    },
+    {
+        "name": "nigra",
+        "common_name": "river birch",
+        "bark": {
+            "color": "rust",
+            "peeling": "peeling"
+        }
+    },
+    {
+        "name": "lenta",
+        "common_name": "sweet birch",
+        "bark": {
+            "color": "grey",
+            "peeling": "not peeling"
+        }
+    },
+    {
+        "name": "alleghaniensis",
+        "common_name": "yellow birch",
+        "bark": {
+            "color": "golden",
+            "peeling": "peeling"
+        }
+    }
+]
